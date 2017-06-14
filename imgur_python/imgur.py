@@ -1,18 +1,21 @@
-from credentials import CLIENT_ID
-from credentials import CLIENT_SECRET
+import configparser
+
 from imgurpython import ImgurClient
 
-client_id = CLIENT_ID
-client_secret = CLIENT_SECRET
+config = configparser.ConfigParser()
+config.read('auth.ini')
+
+client_id = config.get('credentials', 'client_id')
+client_secret = config.get('credentials', 'client_secret')
 
 client = ImgurClient(client_id, client_secret)
 
 # Extracts the items (images) on the front page of imgur.
-#items = client.gallery()
-#for item in items:
-#	print(item.link)
-#	print(item.title)
-#	print(item.views)
+items = client.gallery()
+for item in items:
+	print(item.link)
+	print(item.title)
+	print(item.views)
    
 # Find the front page of imgur with highest views
 #items = client.gallery()
