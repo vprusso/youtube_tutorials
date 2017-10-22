@@ -1,5 +1,0 @@
-Steps: 
-	1. Install selenium : pip install selenium
-	2. Download geckodriver
-	3. cd Downloads -> cp geckodriver /usr/bin/geckodriver
-	4. Code
