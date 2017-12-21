@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=eDrFWRi13DY
 from selenium import webdriver
 
 # Old way of doing things that works with Firefox

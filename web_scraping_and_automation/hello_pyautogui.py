@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=dUeCoUw9OoQ
 import pyautogui, time 
 time.sleep(5)
 pyautogui.click()

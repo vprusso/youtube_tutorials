@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=UqEU-obRUnI
 """
 Implement an algorithm to determine if a string has all unique characters.
 """

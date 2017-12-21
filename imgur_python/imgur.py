@@ -1,3 +1,7 @@
+# YouTube Videos:
+# Part 1: https://www.youtube.com/watch?v=OiDQu-0-DIA
+# Part 2: https://www.youtube.com/watch?v=kDcn_Tn-ti8
+# Part 3: https://www.youtube.com/watch?v=MyCr8kPT3OI
 import configparser
 
 from imgurpython import ImgurClient

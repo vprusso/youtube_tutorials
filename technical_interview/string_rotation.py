@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=g4tdn9KAu3M
 # String Rotation: Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 
 # (e.g. "waterbottle" is a rotation of "erbottlewat")
 

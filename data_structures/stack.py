@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=lVFnq4zbs-g
 """
 Stack Data Structure.
 """

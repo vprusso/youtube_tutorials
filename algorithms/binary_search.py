@@ -1,3 +1,5 @@
+# YouTube Video: https://www.youtube.com/watch?v=zeULw-a7Mw8
+
 # Linear Search
 def linear_search(data, target):	
 	for i in range(len(data)):

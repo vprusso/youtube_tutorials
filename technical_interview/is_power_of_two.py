@@ -19,6 +19,13 @@ def is_power_of_two_2(n):
 				n = n/2
 	return True
 
+# Method 3: Without looping
+def is_power_of_two_3(n):
+    if n == 0:
+        return False
+    else:
+        return n and not(n & (n-1))
+
 n = 2
 print(is_power_of_two_1(n))
 print(is_power_of_two_2(n))

@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=y3S0iYFedCw
 """
 Given a string, write a function to determine if it is a palindrome.
 """

@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=zjo9yFHoUl8
 from selenium import webdriver
 
 # Open up a Firefox browser and navigate to web page. 

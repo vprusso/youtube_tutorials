@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=8uYHAM-dtVA
 """
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 

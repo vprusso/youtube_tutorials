@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=TC7apM-xGaU
 """
 Use a stack to check whether or not a string 
 has balanced usage of parenthesis. 

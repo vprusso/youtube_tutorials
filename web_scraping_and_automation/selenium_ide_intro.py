@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# YouTube Video: https://www.youtube.com/watch?v=8sm4sWYXvNc
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
