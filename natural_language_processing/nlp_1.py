@@ -55,24 +55,46 @@ alice.concordance("Alice")
 # Example:
 #   Generate the most frequent tokens in "Alice in Wonderland":
 
-# First, use NLTK to generate a frequncy distribution dictionary object.
+# First, use NLTK to generate a frequncy distribution dictionary-like object.
 fdist = nltk.FreqDist(alice)
 
-# Second, access the keys of the frequency distribution dictionary.
-# The ordering of the frequency distribution dictionary object 
+# Second, access the keys of the frequency distribution.
+# The ordering of the frequency distribution object 
 # corresponds to how frequently each token is used.
-fdist_keys = fdist.keys()
+fdist_keys = list(fdist.keys())
 
 # What are the top 50 most commond words in "Alice in Wonderland"?
 #fdist.plot(50, cumulative=True)
+
+# Observe that the x-axis consists of punctuation, which may not 
+# be precisely what we are going for. It is possible to remove this 
+# from the words that we plot by filtering out the punctuation.
+
+# TODO:
+punctuation = []
+fdist_no_punc_no_stopwords = nltk.FreqDist(dict((word, freq) for word, freq in fdist.items() if word not in punctuation))
+
+# This plot gives us a bit more useful information, but it still contains an 
+# awful lot of punctuation that we do not particularly care to see. In a 
+# similar fashion, we may filter this out. 
 
 # We may not obtain too much information on the above plot, since 
 # many of the words on the x-axis are words like "and", "the", "in",
 # etc. These types of common English words are referred to as 
 # stopwords. NLTK provides a method to identify such words.
 
-# TODO: Filter stopwords.
-print(type(fdist))
-fdist_no_stopwords = filter(fdist, nltk.corpus.stopwords.words('english'))
-print(fdist_no_stopwords)
-# TODO: Replot fdist after stopwords filtered out. 
+#print(type(fdist))
+stopwords = nltk.corpus.stopwords.words('english')
+fdist_no_stopwords = nltk.FreqDist(dict((word, freq) for word, freq in fdist.items() if word not in stopwords))
+#print(fdist_no_stopwords.keys()[0:10])
+
+# Replot fdist after stopwords filtered out. 
+fdist_no_stopwords.plot(50, cumulative=True)
+
+
+# Hapaxes: Words that occur exactly once in the text. 
+#print(fdist.hapaxes())
+
+# TODO: Case-insensitive hapaxes?
+
+
