@@ -9,7 +9,8 @@ import nltk
 # Refer to Part 1 where this syntax is explained in greater detail. 
 # We will continue to use Lewis Carroll's "Alice in Wonderland" as 
 # our primary exploratory text for NLP.
-alice = nltk.corpus.gutenberg.words('carroll-alice.txt')
+from nltk.text import Text
+alice = Text(nltk.corpus.gutenberg.words('carroll-alice.txt'))
 fdist = nltk.FreqDist(alice)
 
 ################################################################################
@@ -65,18 +66,21 @@ alice_sents = nltk.corpus.gutenberg.sents('carroll-alice.txt')
 # Let us turn the above two metrics into functions, and determine the average 
 # word length and sentence length of all the texts in the Gutenberg collection. 
 
+
 def avg_word_len(num_chars, num_words):
     return int(num_chars/num_words)
+
 
 def avg_sent_len(num_words, num_sents):
     return int(num_words/num_sents)
 
-#for txt in nltk.corpus.gutenberg.fileids():
-#    num_chars = len(nltk.corpus.gutenberg.raw(txt))
-#    num_words = len(nltk.corpus.gutenberg.words(txt))
-#    num_sents = len(nltk.corpus.gutenberg.sents(txt))
+
+#for file_id in nltk.corpus.gutenberg.fileids():
+#    num_chars = len(nltk.corpus.gutenberg.raw(file_id))
+#    num_words = len(nltk.corpus.gutenberg.words(file_id))
+#    num_sents = len(nltk.corpus.gutenberg.sents(file_id))
 #
-#    print(txt + 
+#    print(file_id + 
 #          " has an average word length of " + 
 #          str(avg_word_len(num_chars, num_words)) + 
 #          " and an average sentence length of " + 
@@ -110,8 +114,45 @@ def avg_sent_len(num_words, num_sents):
 # The above approach is not limited to text from Project Gutenberg, but is 
 # broadly applicable to any text that can be obtained from a direct URL.
 
-# Let us consider other text resource that NLTK allows us to process. 
+# Let us consider other text resource that NLTK allows us to process. One of them
+# is various web and chat data. 
 
+# We can print out the file ids of the webtext collection to see what is provided:
+for file_id in nltk.corpus.webtext.fileids():
+    print(file_id) 
 
+# We see a list of text files. For more information on the content of each of these 
+# file, you can consult:
+# https://github.com/teropa/nlp/tree/master/resources/corpora/webtext
 
-# Accessing Text in Chapter 2 and part of Chapter 3 (TODO)
+# Very briefly:
+# firefox.txt: Firefox support forum.
+# grail.txt: Movie script from "Monty Python and the Holy Grail".
+# overheard.txt: Overheard conversation in New York.
+# pirates.txt: Movie script from Pirates of the Caribean.
+# singles.txt: Singles ad. 
+# wine.txt: "Fine Wine Diary" reviews.
+
+# Observe that many of the ways in which we access and processed text from gutenberg 
+# carry over into processing the webtext data. This is a common theme for all of the 
+# text resources provided by NLTK, and makes it easier to apply functionality for one 
+# text resource to another in a general fashion.
+num_grail_words = len(nltk.corpus.webtext.words('grail.txt'))
+num_grail_chars = len(nltk.corpus.webtext.raw('grail.txt'))
+num_grail_sents = len(nltk.corpus.webtext.sents('grail.txt'))
+
+print(avg_word_len(num_grail_chars, num_grail_words))
+print(avg_sent_len(num_grail_words, num_grail_sents))
+
+# Chat logs:
+
+# Brown Corpus:
+
+# Reuters Corpus:
+
+# Inagural Address Corpus:
+
+# Annoted Text Corpus:
+
+# Foreign Language Corpus:
+
