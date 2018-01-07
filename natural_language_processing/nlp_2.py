@@ -1,7 +1,7 @@
 # LucidProgramming -- Natural Language Processing in Python: Part 2
 
-# Part 1 Blog Post: http://vprusso.github.io/blog/2018/natural-language-processing-python-1/ 
-# Part 1 YouTube Video: https://www.youtube.com/watch?v=tP783g97C5o 
+# Part 2 Blog Post: http://vprusso.github.io/blog/2018/natural-language-processing-python-2/ 
+# Part 2 YouTube Video:  
 
 # Start off my importing the NLTK module.
 import nltk
@@ -115,11 +115,11 @@ def avg_sent_len(num_words, num_sents):
 # broadly applicable to any text that can be obtained from a direct URL.
 
 # Let us consider other text resource that NLTK allows us to process. One of them
-# is various web and chat data. 
+# is various web and chat data. The first one we shall focus on his web text. 
 
 # We can print out the file ids of the webtext collection to see what is provided:
-for file_id in nltk.corpus.webtext.fileids():
-    print(file_id) 
+#for file_id in nltk.corpus.webtext.fileids():
+#    print(file_id) 
 
 # We see a list of text files. For more information on the content of each of these 
 # file, you can consult:
@@ -137,22 +137,68 @@ for file_id in nltk.corpus.webtext.fileids():
 # carry over into processing the webtext data. This is a common theme for all of the 
 # text resources provided by NLTK, and makes it easier to apply functionality for one 
 # text resource to another in a general fashion.
-num_grail_words = len(nltk.corpus.webtext.words('grail.txt'))
-num_grail_chars = len(nltk.corpus.webtext.raw('grail.txt'))
-num_grail_sents = len(nltk.corpus.webtext.sents('grail.txt'))
+#num_grail_words = len(nltk.corpus.webtext.words('grail.txt'))
+#num_grail_chars = len(nltk.corpus.webtext.raw('grail.txt'))
+#num_grail_sents = len(nltk.corpus.webtext.sents('grail.txt'))
 
-print(avg_word_len(num_grail_chars, num_grail_words))
-print(avg_sent_len(num_grail_words, num_grail_sents))
+#print(avg_word_len(num_grail_chars, num_grail_words))
+#print(avg_sent_len(num_grail_words, num_grail_sents))
 
-# Chat logs:
+# Inaugural Address Corpus:
 
-# Brown Corpus:
+# This is a collection of presidential inaugural addresses; the speech that the 
+# president makes prior to officially starting their term in office. 
 
-# Reuters Corpus:
+# Let us print out the files provided to us via the inaugural corpus:
+#for file_id in nltk.corpus.inaugural.fileids():
+#    print(file_id) 
 
-# Inagural Address Corpus:
+# Each file consists of the format: X-Y, where X is the four digit year, and 
+# Y is the last name of the president giving the inaugural address. 
 
-# Annoted Text Corpus:
+# Let us loop through each address. While doing so, let us keep a running tally 
+# of the number of times the word "America" is used in each address.
 
-# Foreign Language Corpus:
+# Loop through each inaugural address:
+for fileid in nltk.corpus.inaugural.fileids():
+    america_count = 0 
+    # Loop through all words in current inaugural address:
+    for w in nltk.corpus.inaugural.words(fileid):
+        # We convert the word to lowercase before checking 
+        # This makes checking for the occurrence more consistent:
+        if w.lower().startswith('america'):
+            america_count += 1
+    # Output both the inaugural address name and count for America:
+    president = fileid[5:-4]
+    year = fileid[:4]
+    print("President " + president + 
+          " of year " + year + 
+          " said America " + str(america_count) + " times. ")
+    print(fileid[:4])
+    print(america_count)
+
+# Say I also want to see how many times the word "citizen" is present in
+# each of the inaugural addresses. It may be preferable to consider a plot
+# output as opposed to one that simply outputs to terminal.
+
+# Let us consider a conditional frequency distribution, that is a frequency
+# distribution that is a collection of frequency distributions run under
+# different conditions.
+
+# Recall the FreqDist function took a list as input. NLTK provides a 
+# ConditionalFreqDist function as well which takes a list of pairs. 
+# Each pair has the form (condition, event). 
+
+# In our example, we care about the case when either the word "America"
+# or "citizen" is used in each of the inaugural addresses. In other words, 
+# encountering the phrase "America" or "citizen" are the conditions we 
+# care about, and the events are one for each year of the inaugural address. 
+
+cfd = nltk.ConditionalFreqDist(
+            (target, fileid[:4])
+            for fileid in nltk.corpus.inaugural.fileids() 
+            for w in nltk.corpus.inaugural.words(fileid)
+            for target in ['america', 'citizen']
+            if w.lower().startswith(target))
+#cfd.plot()
 
