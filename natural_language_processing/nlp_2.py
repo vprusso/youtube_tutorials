@@ -19,17 +19,14 @@ fdist = nltk.FreqDist(alice)
 
 # Hapaxes: Words that occur exactly once in the text. 
 # https://en.wikipedia.org/wiki/Hapax_legomenon
-#print(fdist.hapaxes())
+print(fdist.hapaxes())
 
 # Collocations: A pair or group of words that are habitually juxtaposed. 
 # https://en.wikipedia.org/wiki/Collocation
 # A general example may be "red wine". In the context of "Alice in Wonderland", 
 # a more specific example may be something like "Red Queen" or "White Rabbit". 
-#print(alice.collocations())
+print(alice.collocations())
 
-# Bigrams: A pair of consecutive written units (i.e. letters, syllables, or words).
-# https://en.wikipedia.org/wiki/Bigram
-# XXX
 ################################################################################
 
 # Recall in Part 1, we ran the following command:
@@ -44,24 +41,24 @@ fdist = nltk.FreqDist(alice)
 alice_words = nltk.corpus.gutenberg.words('carroll-alice.txt')
 # Note that Python does not print out the entire list or words. The ellipsis 
 # (...) sequence denotes that there is more content that is supressed from output.
-#print(alice_words)
+print(alice_words)
 
 # Get characters from "Alice in Wonderland":
 alice_chars = nltk.corpus.gutenberg.raw('carroll-alice.txt')
-#print(alice_chars)
+print(alice_chars)
 
 # Get sentences from "Alice in Wonderland": 
 alice_sents = nltk.corpus.gutenberg.sents('carroll-alice.txt')
-#print(alice_sents)
+print(alice_sents)
 
 # With the above chars, words, and sentences extracted from "Alice in Wonderland", 
 # we can make use of these to calculate some cursory information on the text:
 
 # Average word length:
-#print(int(len(alice_chars) / len(alice_words)))
+print(int(len(alice_chars) / len(alice_words)))
 
 # Average sentence length:
-#print(int(len(alice_words) / len(alice_sents)))
+print(int(len(alice_words) / len(alice_sents)))
 
 # Let us turn the above two metrics into functions, and determine the average 
 # word length and sentence length of all the texts in the Gutenberg collection. 
@@ -75,16 +72,16 @@ def avg_sent_len(num_words, num_sents):
     return int(num_words/num_sents)
 
 
-#for file_id in nltk.corpus.gutenberg.fileids():
-#    num_chars = len(nltk.corpus.gutenberg.raw(file_id))
-#    num_words = len(nltk.corpus.gutenberg.words(file_id))
-#    num_sents = len(nltk.corpus.gutenberg.sents(file_id))
-#
-#    print(file_id + 
-#          " has an average word length of " + 
-#          str(avg_word_len(num_chars, num_words)) + 
-#          " and an average sentence length of " + 
-#          str(avg_sent_len(num_words, num_sents)))
+for file_id in nltk.corpus.gutenberg.fileids():
+    num_chars = len(nltk.corpus.gutenberg.raw(file_id))
+    num_words = len(nltk.corpus.gutenberg.words(file_id))
+    num_sents = len(nltk.corpus.gutenberg.sents(file_id))
+
+    print(file_id + 
+          " has an average word length of " + 
+          str(avg_word_len(num_chars, num_words)) + 
+          " and an average sentence length of " + 
+          str(avg_sent_len(num_words, num_sents)))
 
 # Sentence length tends to vary, while word length among all of these texts 
 # is consistent.
@@ -94,32 +91,33 @@ def avg_sent_len(num_words, num_sents):
 
 # If you wish to process a text from Project Gutenberg accessed via the web, 
 # one may use the urllib module to import via the internet. 
-#from urllib.request import urlopen 
+from urllib.request import urlopen 
 
 # This URL corresponds to "The Picture of Dorian Grey" by Oscar Wilde.
-#url = "https://www.gutenberg.org/cache/epub/174/pg174.txt" 
-#raw = urlopen(url).read().decode('utf-8')
+url = "https://www.gutenberg.org/cache/epub/174/pg174.txt" 
+raw = urlopen(url).read().decode('utf-8')
 
 # Once the raw content has been extracted, we convert this content to something 
 # that NLTK can understand and process. This should look somewhat familiar if 
 # you have consulted Part 1 of this tutorial. 
-#dorian_grey = nltk.Text(nltk.word_tokenize(raw))
+dorian_grey = nltk.Text(nltk.word_tokenize(raw))
 
 # Once the text has been converted to an NLTK Text object, we can process it 
 # just like we have been doing previously. For example, here we convert the 
 # text object to a frequency distribution and calculate the hapaxes. 
-#fdist_dorian = nltk.FreqDist(dorian_grey)
-#print(fdist_dorian.hapaxes())
+fdist_dorian = nltk.FreqDist(dorian_grey)
+print(fdist_dorian.hapaxes())
 
 # The above approach is not limited to text from Project Gutenberg, but is 
 # broadly applicable to any text that can be obtained from a direct URL.
 
-# Let us consider other text resource that NLTK allows us to process. One of them
-# is various web and chat data. The first one we shall focus on his web text. 
+# Let us consider other text resource that NLTK allows us to process. One of 
+# them is various web and chat data. The first one we shall focus on his 
+# web text. 
 
 # We can print out the file ids of the webtext collection to see what is provided:
-#for file_id in nltk.corpus.webtext.fileids():
-#    print(file_id) 
+for file_id in nltk.corpus.webtext.fileids():
+    print(file_id) 
 
 # We see a list of text files. For more information on the content of each of these 
 # file, you can consult:
@@ -133,16 +131,16 @@ def avg_sent_len(num_words, num_sents):
 # singles.txt: Singles ad. 
 # wine.txt: "Fine Wine Diary" reviews.
 
-# Observe that many of the ways in which we access and processed text from gutenberg 
-# carry over into processing the webtext data. This is a common theme for all of the 
-# text resources provided by NLTK, and makes it easier to apply functionality for one 
-# text resource to another in a general fashion.
-#num_grail_words = len(nltk.corpus.webtext.words('grail.txt'))
-#num_grail_chars = len(nltk.corpus.webtext.raw('grail.txt'))
-#num_grail_sents = len(nltk.corpus.webtext.sents('grail.txt'))
+# Observe that many of the ways in which we access and processed text from 
+# gutenberg carry over into processing the webtext data. This is a common
+# theme for all of the text resources provided by NLTK, and makes it easier
+# to apply functionality for one text resource to another in a general fashion.
+num_grail_words = len(nltk.corpus.webtext.words('grail.txt'))
+num_grail_chars = len(nltk.corpus.webtext.raw('grail.txt'))
+num_grail_sents = len(nltk.corpus.webtext.sents('grail.txt'))
 
-#print(avg_word_len(num_grail_chars, num_grail_words))
-#print(avg_sent_len(num_grail_words, num_grail_sents))
+print(avg_word_len(num_grail_chars, num_grail_words))
+print(avg_sent_len(num_grail_words, num_grail_sents))
 
 # Inaugural Address Corpus:
 
@@ -150,8 +148,8 @@ def avg_sent_len(num_words, num_sents):
 # president makes prior to officially starting their term in office. 
 
 # Let us print out the files provided to us via the inaugural corpus:
-#for file_id in nltk.corpus.inaugural.fileids():
-#    print(file_id) 
+for file_id in nltk.corpus.inaugural.fileids():
+    print(file_id) 
 
 # Each file consists of the format: X-Y, where X is the four digit year, and 
 # Y is the last name of the president giving the inaugural address. 
@@ -165,7 +163,9 @@ for fileid in nltk.corpus.inaugural.fileids():
     # Loop through all words in current inaugural address:
     for w in nltk.corpus.inaugural.words(fileid):
         # We convert the word to lowercase before checking 
-        # This makes checking for the occurrence more consistent:
+        # This makes checking for the occurrence more consistent.
+        # Note that the "startswith" function also catches words like 
+        # "American", "Americans", etc.
         if w.lower().startswith('america'):
             america_count += 1
     # Output both the inaugural address name and count for America:
@@ -174,8 +174,6 @@ for fileid in nltk.corpus.inaugural.fileids():
     print("President " + president + 
           " of year " + year + 
           " said America " + str(america_count) + " times. ")
-    print(fileid[:4])
-    print(america_count)
 
 # Say I also want to see how many times the word "citizen" is present in
 # each of the inaugural addresses. It may be preferable to consider a plot
@@ -200,5 +198,6 @@ cfd = nltk.ConditionalFreqDist(
             for w in nltk.corpus.inaugural.words(fileid)
             for target in ['america', 'citizen']
             if w.lower().startswith(target))
-#cfd.plot()
+cfd.plot()
+
 
