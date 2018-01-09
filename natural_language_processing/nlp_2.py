@@ -28,7 +28,6 @@ print(fdist.hapaxes())
 print(alice.collocations())
 
 ################################################################################
-
 # Recall in Part 1, we ran the following command:
 # nltk.download()
 # This command was responsible for downloading various collections of text that 
@@ -71,7 +70,6 @@ def avg_word_len(num_chars, num_words):
 def avg_sent_len(num_words, num_sents):
     return int(num_words/num_sents)
 
-
 for file_id in nltk.corpus.gutenberg.fileids():
     num_chars = len(nltk.corpus.gutenberg.raw(file_id))
     num_words = len(nltk.corpus.gutenberg.words(file_id))
@@ -111,7 +109,7 @@ print(fdist_dorian.hapaxes())
 # The above approach is not limited to text from Project Gutenberg, but is 
 # broadly applicable to any text that can be obtained from a direct URL.
 
-# Let us consider other text resource that NLTK allows us to process. One of 
+# Let us consider another text resource that NLTK allows us to process. One of 
 # them is various web and chat data. The first one we shall focus on his 
 # web text. 
 
