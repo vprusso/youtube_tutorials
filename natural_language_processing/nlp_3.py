@@ -85,13 +85,25 @@ plot_wordcloud(wordcloud)
 # Recall from Part 2 of this series where we accessed the Inaugural
 # Address corpus provided by NLTK.
 
+# Let us read in the raw content of the 1789 inaugural address of
+# Washington and the 2009 address of Obama.
 washington = nltk.corpus.inaugural.raw('1789-Washington.txt')
 obama = nltk.corpus.inaugural.raw('2009-Obama.txt')
 
-# Let us read in the raw content of the 1789 inaugural address of
-# Washington and the 2009 address of Obama.
-
 # Word cloud for Washington:
+wordcloud = WordCloud(relative_scaling=1.0).generate(washington)
+plot_wordcloud(wordcloud)
+
+
+# By default, if the WordCloud function is not provided a dictionary of stopwords,
+# the WordCloud function will use the ones provided by default. This is okay, but 
+# perhaps we notice in the word cloud generated above that words such as "every" 
+# and "will" are present, but are not particularly useful in extracting information 
+# into what makes Washington's address more unique over others. 
+
+# What we can do then is to add in the words "every" and "will" into the set of 
+# stopwords that the WordCloud function considers. 
+
 from wordcloud import STOPWORDS
 stopwords = set(STOPWORDS)
 stopwords.add("every")
@@ -131,7 +143,6 @@ text = nltk.corpus.inaugural.raw('1789-Washington.txt')
 wc = WordCloud(max_words=1000, mask=mask).generate(text)
 
 wc.to_file("washington_word_cloud.png")
-plt.title("Default colors")
 plt.imshow(wc)
 plt.axis("off")
 plt.show()
