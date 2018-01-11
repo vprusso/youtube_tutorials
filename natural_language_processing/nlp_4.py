@@ -111,13 +111,14 @@ for synset in types_of_cats:
 # upward toward more generality.
 
 # Example:
-#   Cat <- Hypernym 
+#   Cat <- hypernym 
 #       house_cat <- hyponym
 print(wn.synset('house_cat.n.01').hypernyms())
 
 # One way in which one may ascribe similarity between two different words 
 # is to assign a score based on the distance in terms of hypernyms and 
-# hyponyms.
+# hyponyms. That is, how many levels up or down is a given word from 
+# the other we are attempting to compare it to.
 
 """
 How Related are Two Words?
@@ -127,6 +128,33 @@ How Related are Two Words?
 # provides to us to define some metric as to how two words are related 
 # to one another. 
 
+# There are a few ways in which to calculate the similarities between 
+# words.
+
 # The `path_similarity` function returns a score denoting how similar two
-# word senses are. The "path" in this case can be thought of as the distance 
-# in terms of hypernyms/hyponyms, 
+# words are in terms of the distance between hypernyms/hyponyms. 
+
+# Let us calculate this metric of similarity between words
+# "car" and "automobile".
+
+# First, define the synsets for these terms:
+car = wn.synset('car.n.01')
+automobile = wn.synset('automobile.n.01')
+
+# Now, call the `path_similarity` function. This function returns a score
+# between 0 and 1, where 0 is no similarity between the hypernym/hyponym 
+# tree and a distance of 1 is the node which houses both of the words 
+# in terms of hypernyms/hyponyms is identical.
+print(car.path_similarity(automobile))
+
+# We see that "car" and "automobile" have the highest similarity possible, 
+# with a score of 1.0.
+
+# This makes sense, since if we print out the synsets of "car", we see that 
+# one of the synonyms is indeed "automobile".
+
+# Let us now take a look at the term "car" and "boat":
+boat = wn.synset('boat.n.01')
+print(car.path_similarity(boat))
+
+# 
