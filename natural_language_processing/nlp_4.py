@@ -175,19 +175,19 @@ print(car.path_similarity(boat))
 # The numerics obtained from this method may appear to be more intuitively
 # pleasing than the `path_similarity` method.
 
-# Let us attempt to use this metric to in the same way that we did for 
+# Let us attempt to use this metric to in the same way that we did for
 # the `path_similarity` function.
 print(car.wup_similarity(automobile))
 
-# Okay, again for "car" and "automobile" we see a value of 1.0, that is 
-# the highest value of similarity correlation under this metric. 
+# Okay, again for "car" and "automobile" we see a value of 1.0, that is
+# the highest value of similarity correlation under this metric.
 
 # Let us now attempt this metric with "car" and "boat":
 print(car.wup_similarity(boat))
 
-# This higher value is a bit more intuitively correct, as a boat and 
-# car are both modes of transport, yet they are also different enough 
-# to warrant a lower value. Let us continue with something even more 
+# This higher value is a bit more intuitively correct, as a boat and
+# car are both modes of transport, yet they are also different enough
+# to warrant a lower value. Let us continue with something even more
 # seemingly unrelated to a car.
 cat = wn.synset('cat.n.01')
 print(car.wup_similarity(cat))
