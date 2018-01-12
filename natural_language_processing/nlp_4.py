@@ -1,7 +1,7 @@
 # LucidProgramming -- Natural Language Processing in Python: Part 4
 
 # Part 4 Blog Post: http://vprusso.github.io/blog/2018/natural-language-processing-python-4/
-# Part 4 YouTube Video: 
+# Part 4 YouTube Video: https://www.youtube.com/watch?v=byx3LDFiEZE&feature=youtu.be
 
 """
 NLTK and WordNet
@@ -194,6 +194,3 @@ print(car.wup_similarity(cat))
 
 # We see an even lower number here, as one may expect between the terms 
 # "car" and "cat" under this metric of word similarity. 
-
-
-
