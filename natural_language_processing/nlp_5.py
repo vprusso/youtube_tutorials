@@ -1,7 +1,7 @@
 # LucidProgramming -- Natural Language Processing in Python: Part 5
 
 # Part 5 Blog Post: http://vprusso.github.io/blog/2018/natural-language-processing-python-5/
-# Part 5 YouTube Video:  
+# Part 5 YouTube Video: https://www.youtube.com/watch?v=P2PMgnQSHYQ
 
 # In this tutorial, we shall focus on **stemming** and
 # **lemmatization**.
