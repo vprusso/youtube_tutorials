@@ -1,4 +1,3 @@
-# YouTube Link: https://www.youtube.com/watch?v=Vta4ty-t1nY
 class Node:
     def __init__(self, data):
         self.data = data
@@ -255,11 +254,61 @@ class LinkedList:
             q = q.next
         return p.data
 
+    def rotate(self, k):
+        p = self.head 
+        q = self.head 
+        prev = None
+        
+        count = 0
+        
+        while p and count < k:
+            prev = p
+            p = p.next 
+            q = q.next 
+            count += 1
+        p = prev
+        while q:
+            prev = q 
+            q = q.next 
+        q = prev 
+
+        q.next = self.head 
+        self.head = p.next 
+        p.next = None
+
+    def count_occurences_iterative(self, data):
+        count = 0
+        cur = self.head
+        while cur:
+            if cur.data == data:
+                count += 1
+            cur = cur.next
+        return count 
+
+    def count_occurences_recursive(self, node, data):
+        if not node:
+            return 0 
+        if node.data == data:
+            return 1 + self.count_occurences_recursive(node.next, data)
+        else:
+            return self.count_occurences_recursive(node.next, data)
+
+
 llist = LinkedList()
-llist.append("A")
-llist.append("B")
-llist.append("C")
-llist.append("D")
+llist.append(1)
+llist.append(2)
+llist.append(3)
+llist.append(4)
+llist.append(5)
+llist.append(6)
 
-print(llist.print_nth_from_last(2))
-
+llist_2 = LinkedList()
+llist_2.append(1)
+llist_2.append(2)
+llist_2.append(1)
+llist_2.append(3)
+llist_2.append(1)
+llist_2.append(4)
+llist_2.append(1)
+print(llist_2.count_occurences_iterative(1))
+print(llist_2.count_occurences_recursive(llist_2.head, 1))
