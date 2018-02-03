@@ -29,11 +29,14 @@ def is_power_of_two_3(n):
 n = 2
 print(is_power_of_two_1(n))
 print(is_power_of_two_2(n))
+print(is_power_of_two_3(n))
 
 n = 3
 print(is_power_of_two_1(n))
 print(is_power_of_two_2(n))
+print(is_power_of_two_3(n))
 
 n = 4
 print(is_power_of_two_1(n))
 print(is_power_of_two_2(n))
+print(is_power_of_two_3(n))

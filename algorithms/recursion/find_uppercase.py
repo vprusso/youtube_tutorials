@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=dlCGc92tAqo
 # Given a string, find the first uppercase character. 
 # Solve using both an iterative and recursive solution.
 
