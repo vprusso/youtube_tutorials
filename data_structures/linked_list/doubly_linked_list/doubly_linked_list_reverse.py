@@ -111,6 +111,17 @@ class DoublyLinkedList:
                     return 
             cur = cur.next
 
+    def reverse(self):
+        tmp = None
+        cur = self.head
+        while cur:
+            tmp = cur.prev
+            cur.prev = cur.next
+            cur.next = tmp
+            cur = cur.prev
+        if tmp:
+            self.head = tmp.prev
+
 
 dllist = DoublyLinkedList()
 dllist.append(1)
@@ -118,9 +129,5 @@ dllist.append(2)
 dllist.append(3)
 dllist.append(4)
 
-dllist.delete(1)
-dllist.delete(6)
-dllist.delete(4)
-
-dllist.delete(3)
+dllist.reverse()
 dllist.print_list()
