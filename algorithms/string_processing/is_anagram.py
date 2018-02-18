@@ -1,4 +1,4 @@
-s1 = "fairy tales"Rs banned in a place they don’t b
+s1 = "fairy tales"
 s2 = "rail safety"
 
 s1 = s1.replace(" ", "").lower()
