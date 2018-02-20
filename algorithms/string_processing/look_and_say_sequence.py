@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=_1Wp4Bww8Rs
 def next_number(s):
     result = []
     i = 0

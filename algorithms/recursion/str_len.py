@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=RRK0gd77Ln0
 # Given a string, calculate the length of the string. 
 
 input_str = "LucidProgramming"

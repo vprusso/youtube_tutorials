@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=GDFVTZ-kKl0
 def spreadsheet_encode_column(col_str):
     num = 0
     count = len(col_str)-1
