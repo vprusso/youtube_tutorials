@@ -1,4 +1,5 @@
 # LucidProgramming -- Natural Language Processing in Python: Part 1
+# YouTube Video: https://www.youtube.com/watch?v=tP783g97C5o
 
 # Prior to running this script, you will require Python to be installed on 
 # your machine. If so, you may run the following command via pip:

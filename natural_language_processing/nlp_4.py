@@ -1,7 +1,7 @@
 # LucidProgramming -- Natural Language Processing in Python: Part 4
 
 # Part 4 Blog Post: http://vprusso.github.io/blog/2018/natural-language-processing-python-4/
-# Part 4 YouTube Video: https://www.youtube.com/watch?v=byx3LDFiEZE&feature=youtu.be
+# Part 4 YouTube Video: https://www.youtube.com/watch?v=byx3LDFiEZE
 
 """
 NLTK and WordNet

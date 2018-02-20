@@ -1,7 +1,7 @@
 # LucidProgramming -- Natural Language Processing in Python: Part 2
 
 # Part 2 Blog Post: http://vprusso.github.io/blog/2018/natural-language-processing-python-2/ 
-# Part 2 YouTube Video:  
+# Part 2 YouTube Video: https://www.youtube.com/watch?v=n3_mZ47ZVxA 
 
 # Start off my importing the NLTK module.
 import nltk
