@@ -37,7 +37,7 @@ for i in range(10):
 # Run this line a couple times to see the effect.
 pyautogui.moveRel(100, 0, duration=0.25)
 
-# Alternatively, we can simply stick this in a 
+# Alternatively, we can simply stick this in a
 # loop as well to see the result.
 for i in range(5):
     pyautogui.moveRel(100, 0, duration=0.25)
@@ -49,7 +49,7 @@ for i in range(5):
 print(pyautogui.position())
 
 # Clicking the mouse:
-# The "click" function takes two arguments (x,y) that 
+# The "click" function takes two arguments (x,y) that
 # correspond to the (x,y) positions on the screen.
 # For example:
 pyautogui.click(100, 100)
@@ -60,7 +60,7 @@ pyautogui.click(187, 33)
 # Dragging the mouse (moving the mouse while simultaneously clicking).
 # moveTo and moveRel have dragging parallels:
 # dragTo and dragRel
-# Example drag the "Projects" folder on Desktop. 
+# Example drag the "Projects" folder on Desktop.
 pyautogui.dragTo(200,211,duration=0.25)
 
 

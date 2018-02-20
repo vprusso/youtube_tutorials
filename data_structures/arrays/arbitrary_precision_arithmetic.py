@@ -1,8 +1,10 @@
-A1 = [1,4,9]
-A2 = [9,9,9]
+# YouTube Video: https://www.youtube.com/watch?v=v6K3SfMv9WM 
+A1 = [1, 4, 9]
+A2 = [9, 9, 9]
 
-#s = ''.join(map(str, A))
-#print(int(s) + 1)
+# s = ''.join(map(str, A))
+# print(int(s) + 1)
+
 
 def plus_one(A):
     A[-1] += 1

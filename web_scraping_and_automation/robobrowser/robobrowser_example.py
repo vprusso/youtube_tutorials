@@ -1,8 +1,7 @@
 # YouTube Video: https://www.youtube.com/watch?v=hrdDIrT9kJI
 import re
-import config
 
-from robobrowser import RoboBrowser 
+from robobrowser import RoboBrowser
 
 br = RoboBrowser()
 br.open("https://datacoup.com/signin")

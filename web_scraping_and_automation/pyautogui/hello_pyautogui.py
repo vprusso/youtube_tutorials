@@ -1,5 +1,7 @@
 # YouTube Video: https://www.youtube.com/watch?v=dUeCoUw9OoQ
-import pyautogui, time 
+import pyautogui
+import time
+
 time.sleep(5)
 pyautogui.click()
 distance = 400
