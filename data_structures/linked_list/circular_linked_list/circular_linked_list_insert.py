@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=5WoNhm7sOnA
 class Node:
     def __init__(self, data):
         self.data = data 
@@ -41,6 +42,7 @@ class CircularLinkedList:
             cur = cur.next
             if cur == self.head:
                 break
+
 
 cllist = CircularLinkedList()
 cllist.append("C")

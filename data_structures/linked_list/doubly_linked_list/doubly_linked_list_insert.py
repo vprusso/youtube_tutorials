@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=dPGBKZBYy0w    
 class Node:
     def __init__(self, data):
         self.data = data 

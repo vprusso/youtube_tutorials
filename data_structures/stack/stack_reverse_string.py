@@ -1,4 +1,5 @@
-# YouTube Video: 
+# YouTube Video: https://www.youtube.com/watch?v=cXxkvq3u_f8
+
 
 class Stack():
     def __init__(self):
@@ -20,10 +21,11 @@ class Stack():
     def get_stack(self):
         return self.items
 
+
 def reverse_string(stack, input_str):
 
-    # Loop through the string and push contents 
-    # character by character onto stack. 
+    # Loop through the string and push contents
+    # character by character onto stack.
     for i in range(len(input_str)):
         stack.push(input_str[i])
 
@@ -32,7 +34,8 @@ def reverse_string(stack, input_str):
         rev_str += stack.pop()
 
     return rev_str
-    
+
+
 stack = Stack()    
 input_str = "Hello"
 

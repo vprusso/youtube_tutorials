@@ -1,6 +1,7 @@
 # YouTube Video: https://www.youtube.com/watch?v=71UjBGz-o0w
 """
-Given two strings, write a function to decide if one is a permutation of the other. 
+Given two strings, write a function to decide if one is a permutation
+of the other.
 """
 
 # "driving"
@@ -31,8 +32,3 @@ def is_permutation(str_1, str_2):
 
 
 print(is_permutation(str_1, str_2))
-
-
-
-
-
