@@ -1,16 +1,16 @@
-# YouTube Video: 
+# YouTube Video: https://www.youtube.com/watch?v=vNm2nvDyyls
 A = [2, 3, 3, 5, 7, 11]
 B = [3, 3, 7, 15, 31]
 
-# One-liner. This works, but does not take advantage of 
-# the fact that A and B are sorted. We can do a bit 
+# One-liner. This works, but does not take advantage of
+# the fact that A and B are sorted. We can do a bit
 # better by taking advantage of this fact.
 # print(set(A) & set(B))
 
 
 def intersect_sorted_array(A, B):
     i = 0
-    j = 0 
+    j = 0
     intersection = []
 
     while i < len(A) and j < len(B):
@@ -27,6 +27,3 @@ def intersect_sorted_array(A, B):
 
 
 print(intersect_sorted_array(A, B))
-
-
-
