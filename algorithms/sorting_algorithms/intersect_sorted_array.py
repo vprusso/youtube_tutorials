@@ -26,7 +26,7 @@ def intersect_sorted_array(A, B):
     return intersection
 
 
-print(intersect_sorted_array(A,B))
+print(intersect_sorted_array(A, B))
 
 
 
