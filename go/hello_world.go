@@ -1,12 +1,4 @@
-// sudo apt-get install golang-go
-
-// Comment
-/*
-Block comment
-*/
-
-// godoc fmt Println 
-
+// p1. Hello World
 package main
 
 import "fmt"
