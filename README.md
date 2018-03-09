@@ -1,4 +1,3 @@
-# youtube_tutorials
 # LucidProgramming YouTube Tutorial Scripts:
 [LucidProgramming](https://www.youtube.com/channel/UCFxcvyt2Ucq5IL0_1Njzqlg) is my YouTube channel and this repo consists of a collection of scripts corresponding to YouTube tutorials for my YouTube channel.
 
