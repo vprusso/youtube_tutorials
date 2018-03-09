@@ -1,7 +1,5 @@
 # youtube_tutorials
 # LucidProgramming YouTube Tutorial Scripts:
-[Byte by Byte](http://www.byte-by-byte.com) is a coding interview prep website that provides many practice interview questions as well as detailed explanations. This repo contains working, tested code for the solutions on Byte by Byte.
-
 [LucidProgramming](https://www.youtube.com/channel/UCFxcvyt2Ucq5IL0_1Njzqlg) is my YouTube channel and this repo consists of a collection of scripts corresponding to YouTube tutorials for my YouTube channel.
 
 ## Contributing
