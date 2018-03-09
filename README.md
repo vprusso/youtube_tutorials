@@ -186,15 +186,30 @@ Reverse a string using the stack data structure.
 
 ### Go
 
-* [1. Hello World]()
+* [1. Hello World](https://www.youtube.com/watch?v=mbW0oQq5NLQ)
 
-* [2. Values]()
+* [2. Values](https://www.youtube.com/watch?v=uBbL3QsJyFk)
 
-* [3. Variables]()
+* [3. Variables](https://www.youtube.com/watch?v=wqANpSRmlm4)
 
 ### imgur Python
 
 ### Natural Language Processing
+
+* [Natural Language Processing in Python: Part 1 -- Installation and Getting Started](https://www.youtube.com/watch?v=tP783g97C5o)
+Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-1/).
+
+* [Natural Language Processing in Python: Part 2 -- Accessing Text Resources](https://www.youtube.com/watch?v=n3_mZ47ZVxA)
+Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-2/).
+
+* [Natural Language Processing in Python: Part 3 -- Generating Word Clouds](https://www.youtube.com/watch?v=0Rc3452U6b8)
+Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-3/).
+
+* [Natural Language Processing in Python: Part 4 -- WordNet](https://www.youtube.com/watch?v=byx3LDFiEZE)
+Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-4/).
+
+* [Natural Language Processing in Python: Part 5 -- Stemming and Lemmatization](https://www.youtube.com/watch?v=P2PMgnQSHYQ)
+Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-5/).
 
 ### Technical Interview
 
