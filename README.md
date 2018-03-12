@@ -88,7 +88,7 @@ An introduction to Bloom filters using Pokemon to explain key concepts.
 
 #### Linked List
 
-##### Singly Linked List
+#### Singly Linked List
 
 * [Count Occurrences](https://www.youtube.com/watch?v=W4UtFrPLF7k)
 Given a data element, determine how many nodes in a singly linked list contain this piece of data.
@@ -130,7 +130,7 @@ Given a singly linked list and two nodes, swap the first node with the second.
 Given a singly linked list swap the tail of the list with the head.
 
 
-##### Circular Linked List
+#### Circular Linked List
 
 * [Insert](https://www.youtube.com/watch?v=5WoNhm7sOnA)
 Insert a node into a circular linked list.
@@ -147,7 +147,7 @@ Remove node from a circular linked list.
 * [Split List](https://www.youtube.com/watch?v=tij0gatte7g)
 Given a circular linked list an an integer, split the circular linked list.
 
-##### Doubly Linked List
+#### Doubly Linked List
 
 * [Add Before/Add After](https://www.youtube.com/watch?v=8kptHdreaTA)
 Add a node in a doubly linked list before a given node. Add a node in a doubly linked list after a given node.
