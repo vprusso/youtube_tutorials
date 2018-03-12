@@ -88,7 +88,7 @@ An introduction to Bloom filters using Pokemon to explain key concepts.
 
 #### Linked List
 
-#### Singly Linked List
+##### Singly Linked List
 
 * [Count Occurrences](https://www.youtube.com/watch?v=W4UtFrPLF7k)
 Given a data element, determine how many nodes in a singly linked list contain this piece of data.
@@ -130,7 +130,7 @@ Given a singly linked list and two nodes, swap the first node with the second.
 Given a singly linked list swap the tail of the list with the head.
 
 
-#### Circular Linked List
+##### Circular Linked List
 
 * [Insert](https://www.youtube.com/watch?v=5WoNhm7sOnA)
 Insert a node into a circular linked list.
@@ -147,7 +147,7 @@ Remove node from a circular linked list.
 * [Split List](https://www.youtube.com/watch?v=tij0gatte7g)
 Given a circular linked list an an integer, split the circular linked list.
 
-#### Doubly Linked List
+##### Doubly Linked List
 
 * [Add Before/Add After](https://www.youtube.com/watch?v=8kptHdreaTA)
 Add a node in a doubly linked list before a given node. Add a node in a doubly linked list after a given node.
@@ -192,45 +192,131 @@ Reverse a string using the stack data structure.
 
 * [3. Variables](https://www.youtube.com/watch?v=wqANpSRmlm4)
 
+* [4. Constants](https://www.youtube.com/watch?v=lHJ33KvdyN4)
+
+* [5. Loops](https://www.youtube.com/watch?v=MuSTPrYa7-A)
+
+* [6. If/Else](https://www.youtube.com/watch?v=N1gR2NpwN5A)
+
+* [7. Switch](https://www.youtube.com/watch?v=lV9FmloZOMg)
+
+* [8. Arrays](https://www.youtube.com/watch?v=oYVbA9YthlA)
+
+* [9. Slices](https://www.youtube.com/watch?v=PzvcYZ2hy6A)
+
+* [10. Maps](https://www.youtube.com/watch?v=XQre3ILIVH0)
+
+* [11. Range](https://www.youtube.com/watch?v=ne4cLmDrqgM)
+
+* [12. Functions](https://www.youtube.com/watch?v=d2wl9hlxyeA)
+
+* [13. Multiple Return Values](https://www.youtube.com/watch?v=roF5YIKNX1M)
+
+* [14. Variadic Functions](https://www.youtube.com/watch?v=lLoYEft9tFk)
+
+* [15. Closures](https://www.youtube.com/watch?v=MnUQoVk44n0)
+
+* [16. Recursion](https://www.youtube.com/watch?v=K6mJ7Ed0DIA0)
+
+* [17. Pointers](https://www.youtube.com/watch?v=XKdyN9kH4O0)
+
+* [18. Structs](https://www.youtube.com/watch?v=fR2r67nQUHQ)
+
+* [19. Methods](https://www.youtube.com/watch?v=1h5e-g2vqCc)
+
+* [20. Interfaces](https://www.youtube.com/watch?v=EGRXKV6j-v0)
+
 ### imgur Python
+
+* [Python and the imgur API: Setup and Installation (Part 1/3)](https://www.youtube.com/watch?v=OiDQu-0-DIA)
+Setup for imgur API to access via Python module.
+
+* [Python and the imgur API: Authentication (Part 2/3)](https://www.youtube.com/watch?v=kDcn_Tn-ti8)
+Authenticating our imgur application.
+
+* [Python and the imgur API: Image Upload (Part 3/3)](https://www.youtube.com/watch?v=MyCr8kPT3OI)
+Uploading an image to an imgur gallery using the Python imgur module.
 
 ### Natural Language Processing
 
 * [Natural Language Processing in Python: Part 1 -- Installation and Getting Started](https://www.youtube.com/watch?v=tP783g97C5o)
-
 Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-1/).
 
 * [Natural Language Processing in Python: Part 2 -- Accessing Text Resources](https://www.youtube.com/watch?v=n3_mZ47ZVxA)
-
 Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-2/).
 
 * [Natural Language Processing in Python: Part 3 -- Generating Word Clouds](https://www.youtube.com/watch?v=0Rc3452U6b8)
-
 Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-3/).
 
 * [Natural Language Processing in Python: Part 4 -- WordNet](https://www.youtube.com/watch?v=byx3LDFiEZE)
-
 Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-4/).
 
 * [Natural Language Processing in Python: Part 5 -- Stemming and Lemmatization](https://www.youtube.com/watch?v=P2PMgnQSHYQ)
-
 Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-5/).
 
 ### Technical Interview
 
+* []()
+
 ### Twitter Python
+
+* []()
 
 ### Utility Scripts
 
+* [Python: Converting WAV to MP3](https://www.youtube.com/watch?v=4E7N7W1lUkU)
+
+* [Markdown: Creating Presentations Using Markdown and Pandoc](https://www.youtube.com/watch?v=e-HqKSBZOXo)
+
+* [Sending an Email in Python via Gmail](https://www.youtube.com/watch?v=mP_Ln-Z9-XY)
+
 ### Vim
+
+* [Vim: Setting up Vim for Python Development](https://www.youtube.com/watch?v=vlb3qUiS2ZY)
+
+* [Vim: Let's Play VimTutor! (Part 1)](https://www.youtube.com/watch?v=jGWjzjfzths)
+
+* [Vim: Let's Play VimTutor! (Part 2)](https://www.youtube.com/watch?v=-lukOcfqMK4)
+
+* [Vim: Let's Play VimTutor! (Part 3)](https://www.youtube.com/watch?v=Lo3BTpMjUBo)
+
+* [Vim: Let's Play VimTutor! (Part 4)](https://www.youtube.com/watch?v=siE4sc6aj9Q)
+
+* [Vim: Let's Play VimTutor! (Part 5)](https://www.youtube.com/watch?v=yd0RsfFdiig)
+
+* [Vim: Let's Play VimTutor! (Part 6)](https://www.youtube.com/watch?v=iBHOHz9_GYY)
+
+* [Vim: Let's Play VimTutor! (Part 7)](https://www.youtube.com/watch?v=i4fgncEf128)
 
 ### Web Scraping and Automation
 
 #### PyAutoGui
 
+* [PyAutoGui: Automate GUI Applications with Python and PyAutoGui (Part 1)](https://www.youtube.com/watch?v=dUeCoUw9OoQ)
+
+* [PyAutoGui: Automate the Calculator! (Part 2)](https://www.youtube.com/watch?v=CXtC8Jzxsvw)
+
+* [PyAutoGui: Control the Mouse (Part 3)](https://www.youtube.com/watch?v=4rgt7Od7-KM)
+
 #### Robobrowser
+
+* [Using Robobrowser to Login and Extract Data](https://www.youtube.com/watch?v=hrdDIrT9kJI)
+We use the Robobrowser module to login to a website automatically and extract information once logged in.
+
+* [Gift Card Scraper with Python and Robobrowser](https://www.youtube.com/watch?v=l1eLu-HL-fc)
+We use the Robobrowser module to extract balance information for a given giftcard.
 
 #### Scrapy
 
+* [Scrapy: Setup and First Project](https://www.youtube.com/watch?v=OJ8isyws2yw)
+We install the scrapy module and setup an small project.
+
 #### Selenium
 
+* [Selenium IDE: Installation and “Hello World” Example](https://www.youtube.com/watch?v=8sm4sWYXvNc)
+
+* [Python and Selenium: Using Chrome](https://www.youtube.com/watch?v=OJ8isyws2yw)
+
+* [Crawling Pages with Selenium (Part 1/2)](https://www.youtube.com/watch?v=zjo9yFHoUl8)
+
+* [Crawling Pages with Selenium (Part 2/2)](https://www.youtube.com/watch?v=Z3vFdtZ7d-g)
