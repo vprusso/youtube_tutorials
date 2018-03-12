@@ -150,7 +150,7 @@ class BinaryTree(object):
         return traversal
 
     def preorder_iterative(self, start):
-        s = Stack()
+        stack = Stack()
 
         cur = start
         is_done = False
@@ -159,11 +159,11 @@ class BinaryTree(object):
         while not is_done:
             if cur is not None:
                 traversal += str(cur.value) + "-"
-                s.push(cur)
+                stack.push(cur)
                 cur = cur.left
             else:
-                if len(s) > 0:
-                    cur = s.pop()
+                if len(stack) > 0:
+                    cur = stack.pop()
                     cur = cur.right
                 else:
                     is_done = True
