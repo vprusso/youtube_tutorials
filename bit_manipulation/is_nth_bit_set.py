@@ -40,18 +40,18 @@ Example: Is 2nd bit set?
 
     6      : 1 1 0
     1 << 2 : 1 0 0
-            ------
+            ------ &
              1 0 0
 
 Example: Is 0th bit set?
 
     6      : 1 1 0
     1 << 0 : 0 0 1
-            ------
+            ------ &
              0 0 0
 
 Observation:
-    If we AND the result of shifting over by n with 
+    If we AND the result of shifting over by n with
     the number in question, we obtain either 0 or 1:
 
     0 : n-th bit is not set.

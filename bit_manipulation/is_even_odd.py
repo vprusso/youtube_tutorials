@@ -38,7 +38,7 @@ Example:
 
 Observation:
     ANDing the number with 1 gives either "0" or "1":
-        0 : If even. 
+        0 : If even.
         1 : If odd.
 """
 
