@@ -4,12 +4,6 @@ Do not make use of the modulus operator.
 """
 
 
-def is_even_odd(x: int):
-    if x & 1 == 0:
-        return "Even"
-    else:
-        return "Odd"
-
 """
   : 4 2 1
 0 : 0 0 0
@@ -47,6 +41,14 @@ Observation:
         0 : If even. 
         1 : If odd.
 """
+
+
+def is_even_odd(x: int):
+    if x & 1 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
 
 # Yields "Even":
 print(is_even_odd(26))
