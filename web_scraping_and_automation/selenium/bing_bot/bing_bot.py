@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
@@ -31,7 +32,9 @@ class BingBot(object):
         self.num_searches_to_perform = 10
 
         self.profile = self.firefox_profile()
-        self.driver = webdriver.Firefox(self.profile)
+        self.options = Options()
+        self.options.add_argument("--headless")
+        self.driver = webdriver.Firefox(firefox_profile=self.profile, firefox_options=self.options)
 
     def firefox_profile(self):
         """Searching on mobile in additon to desktop yields
@@ -81,12 +84,15 @@ class BingBot(object):
         wait = WebDriverWait(self.driver, self.explicit_wait)
         wait.until(EC.presence_of_all_elements_located((By.ID, "sb_form_q")))
 
+        count = 0
         for search in range(self.num_searches_to_perform):
+            print("Searching " + str(count) + " out of " + str(self.num_searches_to_perform))
             rand_time = self.get_rand_search_time()
             time.sleep(rand_time)
 
             rand_word = self.get_rand_search_term()
             self.driver.get("http://bing.com/search?q="+rand_word)
+            count += 1
 
     def quit(self):
         """Close the browser."""
@@ -105,9 +111,11 @@ with open('bing_accounts.csv', 'r') as f:
         user_id = row[0]
         password = row[1]
 
+        print("Processing user via standard")
         bing_bot = BingBot(user_id, password, is_mobile=True)
         bing_bot.run()
-        
+       
+        print("Processing user via mobile search.")
         bing_bot = BingBot(user_id, password)
         bing_bot.run()
 
