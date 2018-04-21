@@ -16,6 +16,14 @@ b2, b1, b0
 For our function, if we unset the right-most bit,
 we should obtain the binary representation:
     1 1 0
+    
+Alternatively, if we have a number like this
+
+1 1 0 0
+
+Then the result of our function should yield:
+
+1 0 0 0
 """
 
 
