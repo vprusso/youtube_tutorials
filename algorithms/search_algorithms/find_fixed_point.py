@@ -16,6 +16,16 @@ A = [0, 2, 5, 8, 17]
 A = [-10, -5, 3, 4, 7, 9]
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+def find_fixed_point_linear(A):
+    for i in range(len(A)):
+        if A[i] == i:
+            return A[i]
+    return None
+
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
 def find_fixed_point(A):
     low = 0
     high = len(A) - 1
