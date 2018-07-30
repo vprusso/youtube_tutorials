@@ -20,7 +20,7 @@ def string_compression(input_str):
         else:
             comp_str += input_str[i] + str(count)
             count = 1
-        comp_str += input_str[i] + str(count)
+    comp_str += input_str[i] + str(count)
 
     if len(comp_str) >= len(input_str):
         return input_str
