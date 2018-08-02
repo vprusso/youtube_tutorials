@@ -1,3 +1,4 @@
+// YouTube Video: https://www.youtube.com/watch?v=MnUQoVk44n0&t=0s&list=PL5tcWHG-UPH0jOCtEIpDNpbwOnhc6h9Om
 // p.15 Closures
 
 package main
