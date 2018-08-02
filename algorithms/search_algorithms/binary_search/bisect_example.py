@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=mqaf7vj1AdA&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb
 """
 Bisect:
     -"Built-in" binary search method in Python.

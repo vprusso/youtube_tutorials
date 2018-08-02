@@ -1,3 +1,4 @@
+# YouTube Link: https://www.youtube.com/watch?v=gHHjjcCc_4w&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb
 """
 Define a bitonic sequence as a sequence of integers such that:
     x_1 <= ... <= x_k >= ... >= x_n-1 for some k, 0 <= k < n.

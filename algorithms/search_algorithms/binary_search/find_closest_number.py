@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=0gkWZNE1H4Y&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb
 """
 Given an array of sorted integers. We need to find the closest value to the 
 given number.

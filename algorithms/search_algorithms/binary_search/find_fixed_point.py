@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=BQa1hi6fnOE&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb
 """
 A fixed point in an array "A" is an index "i" such that A[i] is equal to "i".
 

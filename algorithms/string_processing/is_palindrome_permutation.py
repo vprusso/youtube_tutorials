@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=dCnxQGMpKz0&index=6&list=PL5tcWHG-UPH03aqnBTkBuH5qIbhshbg_K
 """
 Given a string, write a function to check if it is
 a permutation of a palindrome. A palindrome is a word

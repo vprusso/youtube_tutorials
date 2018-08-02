@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=F0RywIXmqlU&index=2&list=PL5tcWHG-UPH1u5iox6v1Hey59vNd5cnTw
 """
 Write a program to determine if a given number is even or odd.
 Do not make use of the modulus operator.

@@ -32,6 +32,30 @@ Recursively calculate the length of a given string.
 * [Binary Search](https://www.youtube.com/watch?v=zeULw-a7Mw8)  
 Iterative and recursive implementation and comparison of binary search.
 
+* [Python's Bisect Method](https://www.youtube.com/watch?v=mqaf7vj1AdA&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)  
+We cover the "bisect" function in Python, and how this can be used to apply to problems requiring binary search.
+
+* [Cyclic Sorted Array](Pending)  
+We use binary search to determine the first element of a sorted cyclically rotated list.
+
+* [Find Bitonic Peak](https://www.youtube.com/watch?v=gHHjjcCc_4w&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)  
+Determine what the "bitonic peak" of a sequence of numbers is using binary search.
+
+* [Find Bitonic Peak](https://www.youtube.com/watch?v=gHHjjcCc_4w&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)  
+Determine what the "bitonic peak" of a sequence of numbers is using binary search.
+
+* [Find Closest Number](https://www.youtube.com/watch?v=0gkWZNE1H4Y&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+Given an array of sorted integers. We need to find the closest value to the given number.
+
+* [Find First Duplicate Entry](https://www.youtube.com/watch?v=mGaamvgPqpw&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+Write a function that takes an array of sorted integers and a key and returns the index of the first occurrence of that key from the array.
+
+* [Find Fixed Point](https://www.youtube.com/watch?v=BQa1hi6fnOE&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+Given an array of n distinct integers sorted in ascending order, write a function that returns a "fixed point" in the array. If there is not a fixed point return "None".
+
+* [Integer Square Root](https://www.youtube.com/watch?v=plbSgfLCt74&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+Write a function that takes a non-negative integer and returns the largest integer whose square is less than or equal to the integer given.
+
 #### Sorting Algorithms
 
 * [Intersect Sorted Array](https://www.youtube.com/watch?v=vNm2nvDyyls)  
@@ -48,6 +72,15 @@ Given a string, determine if it is an anagram, i.e. a word or phrase formed by r
 * [Is Palindrome](https://www.youtube.com/watch?v=qjuXUWzVO_Q)  
 Given a string, determine if it is a palindrome, i.e. a word or phrase that can be read the same forwards and backwards. 
 
+* [Is Permutation](https://www.youtube.com/watch?v=qjuXUWzVO_Q&index=4&list=PL5tcWHG-UPH03aqnBTkBuH5qIbhshbg_K)
+Given two strings, determine if one string is a permutation of the other.
+
+* [Is Palindrome Permutation](https://www.youtube.com/watch?v=dCnxQGMpKz0&index=6&list=PL5tcWHG-UPH03aqnBTkBuH5qIbhshbg_K)
+Given a string, determine if it is a permutation of a palindrome.
+
+* [Is Unique](https://www.youtube.com/watch?v=KtKgFnZoM5o&index=8&list=PL5tcWHG-UPH03aqnBTkBuH5qIbhshbg_K)
+Implement an algorithm to determine if a string has all unique characters.
+
 * [Look-and-Say Sequence](https://www.youtube.com/watch?v=_1Wp4Bww8Rs)
 Generate the so-called ["Look-and-Say" sequence](https://en.wikipedia.org/wiki/Look-and-say_sequence)
 
@@ -62,8 +95,26 @@ Given a column string as formatted in a spreadsheet program, write a function th
 * [Find Set Bit](Pending)  
 Given a number having only one "1" and all other "0"s in its binary representation, find position of set bit.
 
+* [Is Even or Odd](https://www.youtube.com/watch?v=F0RywIXmqlU&index=2&list=PL5tcWHG-UPH1u5iox6v1Hey59vNd5cnTw)
+Write a program to determine if a given number is even or odd. Do not make use of the modulus operator.
+
+* [Is Nth Bit Set](https://www.youtube.com/watch?v=G8SI2Jrqeww&index=3&list=PL5tcWHG-UPH1u5iox6v1Hey59vNd5cnTw)
+Write a program that takes an integer and tests whether the n-th bit in the binary representation of that integer is set of not.
+
 * [Is Power Two](Pending)  
 Given a positive integer, check if the integer is a power of 2.
+
+* [Set Nth Bit](https://www.youtube.com/watch?v=ZfU00JFhL7E&index=4&list=PL5tcWHG-UPH1u5iox6v1Hey59vNd5cnTw)
+Write a program  that takes an integer and sets the n-th bit in the binary representation of that integer.
+
+* [Toggle Nth Bit](https://www.youtube.com/watch?v=3r5TmVmPuJ8&index=6&list=PL5tcWHG-UPH1u5iox6v1Hey59vNd5cnTw)
+Write a program  that takes an integer and toggles the n-th bit in the binary representation of that integer.
+
+* [Unset Nth Bit](https://www.youtube.com/watch?v=4sYl6oIgrs8&index=5&list=PL5tcWHG-UPH1u5iox6v1Hey59vNd5cnTw)
+Write a program  that takes an integer and unsets the n-th bit in the binary representation of that integer.
+
+* [Unset Right-Most Bit](Pending)
+Write a program  that takes an integer and unsets the right most bit in the binary representation of that integer
 
 ### Data Structures
 

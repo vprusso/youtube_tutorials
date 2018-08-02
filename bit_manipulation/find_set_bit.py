@@ -1,7 +1,7 @@
 # YouTube Video: 
 """
 Given a number having only one ‘1’ and all other ’0’s in its binary
-representation, find position of the only set bit. Assume we begin 
+representation, find position of the only set bit. Assume we begin
 counting the position from the right and start counting at 0.
 
 Examples:

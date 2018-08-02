@@ -1,10 +1,11 @@
+# YouTube Video: https://www.youtube.com/watch?v=qjuXUWzVO_Q&index=4&list=PL5tcWHG-UPH03aqnBTkBuH5qIbhshbg_K
 """
 Given two strings, write a method to decide if 
 one is a permutation of the other.
 """
 
-is_permutation_1 = "god"
-is_permutation_2 = "dog"
+is_permutation_1 = "google"
+is_permutation_2 = "ooggle"
 
 not_permutation_1 = "not"
 not_permutation_2 = "top"
@@ -58,7 +59,7 @@ def is_perm_2(str_1, str_2):
 
 
 print(is_perm_1(is_permutation_1, is_permutation_2))
-print(is_perm_1(not_permutation_1, not_permutation_2))
+#print(is_perm_1(not_permutation_1, not_permutation_2))
 
 print(is_perm_2(is_permutation_1, is_permutation_2))
-print(is_perm_2(not_permutation_1, not_permutation_2))
+#print(is_perm_2(not_permutation_1, not_permutation_2))

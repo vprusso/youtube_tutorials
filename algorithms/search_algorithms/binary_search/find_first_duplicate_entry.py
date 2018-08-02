@@ -1,3 +1,4 @@
+# YouTube Video: https://www.youtube.com/watch?v=mGaamvgPqpw&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb
 """
 Write a function that takes an array of sorted integers and a key and
 returns the index of the first occurrence of that key from the array.
