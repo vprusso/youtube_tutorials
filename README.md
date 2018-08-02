@@ -11,49 +11,63 @@ I would love to compile solutions to all of the problems here, as well as offer 
 #### Greedy Algorithms
 
 * [Optimal Task Assingment](https://www.youtube.com/watch?v=QvSIAB27Vdk)  
+
 Determine the optimal way to assign two tasks to minimize total time.
 
 #### Recursion
 
 * [Count Consonants](https://www.youtube.com/watch?v=FTOTyTXIX6I)  
+
 Count the number of consonants present in a string.
 
 * [Find Uppercase](https://www.youtube.com/watch?v=dlCGc92tAqo)  
+
 Given a string, find the first uppercase character.
 
 * [Product Two Numbers](https://www.youtube.com/watch?v=VapDVrsERsA)  
+
 Recursively calculate the product of two numbers.
 
 * [String Length](https://www.youtube.com/watch?v=RRK0gd77Ln0)  
+
 Recursively calculate the length of a given string.
 
 #### Search Algorithms
 
 * [Binary Search](https://www.youtube.com/watch?v=zeULw-a7Mw8)  
+
 Iterative and recursive implementation and comparison of binary search.
 
 * [Python's Bisect Method](https://www.youtube.com/watch?v=mqaf7vj1AdA&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)  
+
 We cover the "bisect" function in Python, and how this can be used to apply to problems requiring binary search.
 
 * [Cyclic Sorted Array](Pending)  
+
 We use binary search to determine the first element of a sorted cyclically rotated list.
 
 * [Find Bitonic Peak](https://www.youtube.com/watch?v=gHHjjcCc_4w&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)  
+
 Determine what the "bitonic peak" of a sequence of numbers is using binary search.
 
 * [Find Bitonic Peak](https://www.youtube.com/watch?v=gHHjjcCc_4w&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)  
+
 Determine what the "bitonic peak" of a sequence of numbers is using binary search.
 
 * [Find Closest Number](https://www.youtube.com/watch?v=0gkWZNE1H4Y&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+
 Given an array of sorted integers. We need to find the closest value to the given number.
 
 * [Find First Duplicate Entry](https://www.youtube.com/watch?v=mGaamvgPqpw&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+
 Write a function that takes an array of sorted integers and a key and returns the index of the first occurrence of that key from the array.
 
 * [Find Fixed Point](https://www.youtube.com/watch?v=BQa1hi6fnOE&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+
 Given an array of n distinct integers sorted in ascending order, write a function that returns a "fixed point" in the array. If there is not a fixed point return "None".
 
 * [Integer Square Root](https://www.youtube.com/watch?v=plbSgfLCt74&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)
+
 Write a function that takes a non-negative integer and returns the largest integer whose square is less than or equal to the integer given.
 
 #### Sorting Algorithms
