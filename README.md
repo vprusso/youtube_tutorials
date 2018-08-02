@@ -18,13 +18,13 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Count Consonants](https://www.youtube.com/watch?v=FTOTyTXIX6I)<br>
     Count the number of consonants present in a string.
 
-* [Find Uppercase](https://www.youtube.com/watch?v=dlCGc92tAqo)<br>  
+* [Find Uppercase](https://www.youtube.com/watch?v=dlCGc92tAqo)<br> 
     Given a string, find the first uppercase character.
 
-* [Product Two Numbers](https://www.youtube.com/watch?v=VapDVrsERsA)<br>  
+* [Product Two Numbers](https://www.youtube.com/watch?v=VapDVrsERsA)<br>
     Recursively calculate the product of two numbers.
 
-* [String Length](https://www.youtube.com/watch?v=RRK0gd77Ln0)<br> 
+* [String Length](https://www.youtube.com/watch?v=RRK0gd77Ln0)<br>
     Recursively calculate the length of a given string.
 
 #### Search Algorithms
@@ -327,11 +327,42 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 ### Technical Interview
 
-* []()
+* [Check if String has Unique Characters](https://www.youtube.com/watch?v=UqEU-obRUnI&t=232s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Write a script to determine if a given string has all unique characters.
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
+
+* []()<br>
 
 ### Twitter Python
 
-* []()
+* [Twitter API with Python (Part 1/2)](https://www.youtube.com/watch?v=wlnx-7cm4Gg&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1)<br>
+    We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
+
+* [Twitter API with Python (Part 2/2)](https://www.youtube.com/watch?v=rhBZqEWsZU4&t=730s&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1)<br>
+    We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
 
 ### Utility Scripts
 
@@ -409,3 +440,28 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 * [Crawling Pages with Selenium (Part 2/2)](https://www.youtube.com/watch?v=Z3vFdtZ7d-g)<br>
    A simple multi-page website is used to illustrate how to extract content and move through pages. 
+
+* [Craigslist Scraper with Python and Selenium (Part 1/3)](https://www.youtube.com/watch?v=4o2Eas2WqAQ&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script using Selenium, Beautiful Soup, and urllib to extract information from the website Craigslist. 
+
+* [Craigslist Scraper with Python and Selenium (Part 2/3)](https://www.youtube.com/watch?v=x5o0XFozYnE&t=716s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script using Selenium, Beautiful Soup, and urllib to extract information from the website Craigslist. 
+
+* [Craigslist Scraper with Python and Selenium (Part 3/3)](https://www.youtube.com/watch?v=_y43iqSJgnc&t=1s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script using Selenium, Beautiful Soup, and urllib to extract information from the website Craigslist. 
+
+* [Bing Rewards Bot with Python and Selenium (Part 1/5)](https://www.youtube.com/watch?v=axxfcMEfDPE&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script in Python making use of Selenium to automate a rewards bot.
+
+* [Bing Rewards Bot with Python and Selenium (Part 2/5)](https://www.youtube.com/watch?v=O2S1qfjE2tA&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script in Python making use of Selenium to automate a rewards bot.
+
+* [Bing Rewards Bot with Python and Selenium (Part 3/5)](https://www.youtube.com/watch?v=X5plI2jLrmI&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script in Python making use of Selenium to automate a rewards bot.
+
+* [Bing Rewards Bot with Python and Selenium (Part 4/5)](https://www.youtube.com/watch?v=1g677_mjflM&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script in Python making use of Selenium to automate a rewards bot.
+
+* [Bing Rewards Bot with Python and Selenium (Part 5/5)](https://www.youtube.com/watch?v=rUYN5OEjs74&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
+    Write a script in Python making use of Selenium to automate a rewards bot.
+

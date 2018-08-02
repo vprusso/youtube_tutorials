@@ -1,3 +1,9 @@
+# YouTube Video (Part 1): https://www.youtube.com/watch?v=axxfcMEfDPE&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr&index=9
+# YouTube Video (Part 2): https://www.youtube.com/watch?v=O2S1qfjE2tA&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr&index=10
+# YouTube Video (Part 3): https://www.youtube.com/watch?v=X5plI2jLrmI&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr&index=11
+# YouTube Video (Part 4): https://www.youtube.com/watch?v=1g677_mjflM&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr&index=12
+# YouTube Video (Part 5): https://www.youtube.com/watch?v=rUYN5OEjs74&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr&index=13
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options

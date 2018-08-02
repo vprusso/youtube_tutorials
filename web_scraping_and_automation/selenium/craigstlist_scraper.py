@@ -1,3 +1,7 @@
+# YouTube Video (Part 1): https://www.youtube.com/watch?v=4o2Eas2WqAQ&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr
+# YouTube Video (Part 2): https://www.youtube.com/watch?v=x5o0XFozYnE&t=716s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr
+# YouTube Video (Part 3): https://www.youtube.com/watch?v=_y43iqSJgnc&t=1s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
