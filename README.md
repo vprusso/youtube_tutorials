@@ -310,13 +310,13 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 ### Natural Language Processing
 
-* [Natural Language Processing in Python: Part 1 -- Installation and Getting Started](https://www.youtube.com/watch?v=tP783g97C5o)
+* [Natural Language Processing in Python: Part 1 -- Installation and Getting Started](https://www.youtube.com/watch?v=tP783g97C5o)<br>
     Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-1/).
 
-* [Natural Language Processing in Python: Part 2 -- Accessing Text Resources](https://www.youtube.com/watch?v=n3_mZ47ZVxA)
+* [Natural Language Processing in Python: Part 2 -- Accessing Text Resources](https://www.youtube.com/watch?v=n3_mZ47ZVxA)<br>
     Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-2/).
 
-* [Natural Language Processing in Python: Part 3 -- Generating Word Clouds](https://www.youtube.com/watch?v=0Rc3452U6b8)
+* [Natural Language Processing in Python: Part 3 -- Generating Word Clouds](https://www.youtube.com/watch?v=0Rc3452U6b8)<br>
     Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-3/).
 
 * [Natural Language Processing in Python: Part 4 -- WordNet](https://www.youtube.com/watch?v=byx3LDFiEZE)
