@@ -330,31 +330,44 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Check if String has Unique Characters](https://www.youtube.com/watch?v=UqEU-obRUnI&t=232s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
     Write a script to determine if a given string has all unique characters.
 
-* []()<br>
+* [Is Anagram](https://www.youtube.com/watch?v=iUK0cKV_lT4&t=1s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Write a script to determine if a given string is an anagram.
 
-* []()<br>
+* [Check if String is Permutation](https://www.youtube.com/watch?v=71UjBGz-o0w&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Given two strings, check if they are permutations of each other.
 
-* []()<br>
+* [Check if String is Palindrome](https://www.youtube.com/watch?v=y3S0iYFedCw&t=1s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Given a string, check if it is a palindrome.
 
-* []()<br>
+* [Two Sum Problem](https://www.youtube.com/watch?v=8uYHAM-dtVA&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Given an array of integers, return indices of the two numbers such that they add up to a specific target. Each input would have exactly one solution, and don't use the same element twice.
 
-* []()<br>
+* [Single Number Problem](https://www.youtube.com/watch?v=r0CAz6MdgEg&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Given an array of integers, every element appears twice except for one. Find that single one.
 
-* []()<br>
+* [FizzBuzz](https://www.youtube.com/watch?v=bS837DTJsTI&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Solving the infamous "FizzBuzz" problem in Python.
 
-* []()<br>
+* [Iterative and Recursive Factorial](https://www.youtube.com/watch?v=yUOoJL9_y9M&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Calculate the factorial of a positive integer. Do so using both an iterative and recursive approach.
 
-* []()<br>
+* [URLify String](https://www.youtube.com/watch?v=rxgVVwZlJko&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold the additional characters and that you are given the "true" length of the string. 
 
-* []()<br>
+* [One Away](Pending)<br>
+    There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
 
-* []()<br>
+* [Matrix Median](https://www.youtube.com/watch?v=wn-NKs_KNyQ&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    We are given a row-wise sorted matrix of size r-by-c we need to find the median of the matrix given. It is assumed that r-by-c is always odd.
 
-* []()<br>
+* [String Compression](https://www.youtube.com/watch?v=sE7F1WroB1M&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+   String Compression: Implement a method to perform basic string compression using the counts of repeated characters. For example, the string "aabcccccaaa" would become a2b1c5a3. If the "compressed" string would not become smaller than the original string, your method should return the original string. You can assume the string has only uppercase and lowercase letters (a-z).
+ 
+* [String Rotation](https://www.youtube.com/watch?v=g4tdn9KAu3M&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    String Rotation: Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 (e.g. "waterbottle" is a rotation of "erbottlewat").
 
-* []()<br>
-
-* []()<br>
+* [Count Ones in Binary Representation](https://www.youtube.com/watch?v=P9EFWCvD_yU&t=0s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
+    Find the number of 1s in the binary representation of a number. 
 
 ### Twitter Python
 
