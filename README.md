@@ -325,6 +325,11 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Natural Language Processing in Python: Part 5 -- Stemming and Lemmatization](https://www.youtube.com/watch?v=P2PMgnQSHYQ)<br>
     Accomodating blog post for this video can be found [here](http://vprusso.github.io/blog/2018/natural-language-processing-python-5/).
 
+### Podcasts and Interviews
+
+* [Transitioning from Non-Tech to Tech: An Interview with Beau Carnes](https://www.youtube.com/watch?v=SOQAe9T1tdM)<br>
+    A conversation with Beau Carnes regarding his journey in shifting from a teaching career to a technical career.
+
 ### Technical Interview
 
 * [Check if String has Unique Characters](https://www.youtube.com/watch?v=UqEU-obRUnI&t=232s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
