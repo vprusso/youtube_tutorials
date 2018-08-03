@@ -45,6 +45,9 @@ coverage.xml
 *,cover
 .hypothesis/
 
+# Ignore Mac DS_Store files
+.DS_Store#
+
 # Translations
 *.mo
 *.pot

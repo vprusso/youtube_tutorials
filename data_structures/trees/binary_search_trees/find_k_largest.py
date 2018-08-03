@@ -92,17 +92,13 @@ class BST:
                 nodes.append(cur_node.data)
                 self._find_k_largest(cur_node.left, nodes, k)
 
+
 bst = BST()
 bst.insert(4)
 bst.insert(2)
 bst.insert(8)
 bst.insert(5)
 bst.insert(10)
-
-tree = BST()
-tree.root = Node(1)
-tree.root.left = Node(2)
-tree.root.right = Node(3)
 
 print(bst.find_k_largest(1))
 print(bst.find_k_largest(2))
