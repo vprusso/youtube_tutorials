@@ -35,7 +35,7 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Python's Bisect Method](https://www.youtube.com/watch?v=mqaf7vj1AdA&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)<br>
     We cover the "bisect" function in Python, and how this can be used to apply to problems requiring binary search.
 
-* [Cyclic Sorted Array](Pending)<br>
+* [Cyclic Sorted Array](https://www.youtube.com/watch?v=l7swJRixYUM)<br>
     We use binary search to determine the first element of a sorted cyclically rotated list.
 
 * [Find Bitonic Peak](https://www.youtube.com/watch?v=gHHjjcCc_4w&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb)<br>
@@ -376,10 +376,16 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 ### Twitter Python
 
-* [Twitter API with Python (Part 1/2)](https://www.youtube.com/watch?v=wlnx-7cm4Gg&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1)<br>
+* [Twitter API with Python (Part 1/4)](https://www.youtube.com/watch?v=wlnx-7cm4Gg&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1)<br>
     We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
 
-* [Twitter API with Python (Part 2/2)](https://www.youtube.com/watch?v=rhBZqEWsZU4&t=730s&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1)<br>
+* [Twitter API with Python (Part 2/4)](https://www.youtube.com/watch?v=rhBZqEWsZU4&t=730s&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1)<br>
+    We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
+
+* [Twitter API with Python (Part 3/4)](Pending)<br>
+    We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
+
+* [Twitter API with Python (Part 4/4)](Pending)<br>
     We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
 
 ### Utility Scripts
