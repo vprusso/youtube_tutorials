@@ -388,7 +388,7 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Twitter API with Python (Part 4/5)](https://www.youtube.com/watch?v=w9tAoscq3C4)<br>
     We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
 
-* [Twitter API with Python (Part 5/5)](Pending)<br>
+* [Twitter API with Python (Part 5/5)](https://www.youtube.com/watch?v=pdnTPUFF4gA)<br>
     We make use of the Tweepy module in Python to create a script that allows us to interface with Twitter.
 
 ### Utility Scripts
