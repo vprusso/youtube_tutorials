@@ -69,7 +69,7 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Convert Integer to String](https://www.youtube.com/watch?v=b0vKXjPJwkg)<br>
     You are given some integer as input. Convert the integer you are given to a string. Do not make use of the built-in "str" function.
 
-* [Convert String to Integer](Pending)<br>
+* [Convert String to Integer](https://www.youtube.com/watch?v=ik-RePSeaSs)<br>
     You are given some numeric string as input. Conver the string you are given to an integer. Do not make use of the built-in "int" function.
 
 * [Is Anagram](https://www.youtube.com/watch?v=Pb7pmvifBf4)<br>
