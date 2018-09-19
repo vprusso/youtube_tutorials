@@ -314,6 +314,10 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Python and the imgur API: Image Upload (Part 3/3)](https://www.youtube.com/watch?v=MyCr8kPT3OI)<br>
     Uploading an image to an imgur gallery using the Python imgur module.
 
+### Multiprocessing and Threading
+
+
+
 ### Natural Language Processing
 
 * [Natural Language Processing in Python: Part 1 -- Installation and Getting Started](https://www.youtube.com/watch?v=tP783g97C5o)<br>
@@ -435,6 +439,11 @@ I would love to compile solutions to all of the problems here, as well as offer 
     Part 7 of going through the built-in Vim tutor.
 
 ### Web Scraping and Automation
+
+#### BeautifulSoup
+
+* [BeautifulSoup and Requests: Getting Started and Quick Example](https://www.youtube.com/watch?v=zLlHs0jyddQ)<br>
+    A quick and simple introduction to BeautifulSoup using the Requests module.
 
 #### PyAutoGui
 
