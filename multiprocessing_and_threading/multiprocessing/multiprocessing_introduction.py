@@ -4,7 +4,7 @@
 # We show how to simply apply this module to a function that takes a number
 # and squares it.
 
-# import os
+import os
 
 from multiprocessing import Process, current_process
 
@@ -16,15 +16,15 @@ def square(number):
     # We can use the OS module in Python to print out the process ID
     # assigned to the call of this function assigned by the operating
     # system.
-    # proc_id = os.getpid()
-    # print("Process ID: " + str(proc_id))
+    proc_id = os.getpid()
+    print(f"Process ID: {proc_id}")
 
     # We can also use the "current_process" function to get the name
     # of the Process object:
     process_name = current_process().name
-    print("Process Name: " + str(process_name))
+    print(f"Process Name: {process_name}")
 
-    print("The number " + str(number) + " squares to " + str(result) + ".")
+    print(f"The number {number} squares to {result}.")
 
 
 if __name__ == '__main__':
