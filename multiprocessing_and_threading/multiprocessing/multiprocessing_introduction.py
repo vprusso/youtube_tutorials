@@ -11,7 +11,7 @@ from multiprocessing import Process, current_process
 
 def square(number):
     """The function squares whatever number it is provided."""
-    result = number * 2
+    result = number * number
 
     # We can use the OS module in Python to print out the process ID
     # assigned to the call of this function assigned by the operating
