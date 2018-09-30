@@ -46,15 +46,16 @@ def is_paren_balanced(paren_string):
                 top = s.pop()
                 if not is_match(top, paren):
                     is_balanced = False
-            index += 1
+        index += 1
 
-        if s.is_empty() and is_balanced:
-            return True
-        else:
-            return False
+    if s.is_empty() and is_balanced:
+        return True
+    else:
+        return False
 
 
 print(is_paren_balanced("(((({}))))"))
 
 print(is_paren_balanced("[][]]]"))
+print(is_paren_balanced("[][]"))
 
