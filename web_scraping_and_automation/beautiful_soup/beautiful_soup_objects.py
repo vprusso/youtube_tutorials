@@ -1,4 +1,4 @@
-# YouTube Link:
+# YouTube Link: https://www.youtube.com/watch?v=oDtLJEc5Ako
 
 """
 In this video, we will be going over BeautifulSoup objects, namely:
