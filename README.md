@@ -316,6 +316,11 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 ### Multiprocessing and Threading
 
+* [Multiprocessing in Python: Introduction (Part 1)](https://www.youtube.com/watch?v=RR4SoktDQAw)<br>
+    An introduction to the multiprocessing module in Python.
+
+* [Multiprocessing in Python: Introduction (Part 2)](https://www.youtube.com/watch?v=itbx_hDX7z8)<br>
+    A continuation of the introduction of the multiprocessing module in Python.
 
 
 ### Natural Language Processing
@@ -339,6 +344,20 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 * [Transitioning from Non-Tech to Tech: An Interview with Beau Carnes](https://www.youtube.com/watch?v=SOQAe9T1tdM)<br>
     A conversation with Beau Carnes regarding his journey in shifting from a teaching career to a technical career.
+
+* [Preparing for a Technical Interview: An Interview with Sam Gavis-Hughson of Byte-by-Byte](XXX)<br>
+    A conversation with Sam Gavis-Hughson of Byte-by-Byte about how to effectively prepare for a technical interview.
+
+### System Design
+
+* [System Design: URL Shortener -- Introduction](https://www.youtube.com/watch?v=_ANBR698D7c)<br>
+    An introduction to system design interviews and Part 1 of designing the URL shortener.
+
+* [System Design: URL Shortener -- Calculating Estimates](https://www.youtube.com/watch?v=oK6BmG3R5iE)<br>
+    Part 2 of the URL shortener system design interview question where we cover how to roughly estimate costs for the project.
+
+* [System Design: URL Shortener -- Database Design](XXX)<br>
+    Part 3 of the URL shortener system design interview question where we cover database design.
 
 ### Technical Interview
 
@@ -444,6 +463,9 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 * [BeautifulSoup and Requests: Getting Started and Quick Example](https://www.youtube.com/watch?v=zLlHs0jyddQ)<br>
     A quick and simple introduction to BeautifulSoup using the Requests module.
+
+* [BeautifulSoup in Python: Objects](https://www.youtube.com/watch?v=oDtLJEc5Ako)<br>
+    We cover various objects that one uses in BeautifulSoup and see how they can be made use of.
 
 #### PyAutoGui
 
