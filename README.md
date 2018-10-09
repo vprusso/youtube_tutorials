@@ -322,6 +322,11 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Multiprocessing in Python: Introduction (Part 2)](https://www.youtube.com/watch?v=itbx_hDX7z8)<br>
     A continuation of the introduction of the multiprocessing module in Python.
 
+* [Multiprocessing in Python: Locks](XXX)<br>
+    An introduction to lock objects in the multiprocessing module.
+
+* [Multiprocessing in Python: Logging](XXX)<br>
+    We see how to make use of the multiprocessing logging functionality.
 
 ### Natural Language Processing
 
