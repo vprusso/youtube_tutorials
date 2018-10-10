@@ -4,31 +4,26 @@
 # between different processes.
 
 
-from multiprocessing import Process, Queue, Lock
+from multiprocessing import Process, Queue
 
 
-def square(numbers, queue, lock):
+def square(numbers, queue):
     for i in numbers:
-        lock.acquire()
         queue.put(i*i)
-        lock.release()
 
 
-def cube(numbers, queue, lock):
+def cube(numbers, queue):
     for i in numbers:
-        lock.acquire()
         queue.put(i*i*i)
-        lock.release()
 
 
 if __name__ == '__main__':
 
     numbers = range(5)
-    lock = Lock()
 
     queue = Queue()
-    square_process = Process(target=square, args=(numbers, queue, lock))
-    cube_process = Process(target=cube, args=(numbers, queue, lock))
+    square_process = Process(target=square, args=(numbers, queue))
+    cube_process = Process(target=cube, args=(numbers, queue))
 
     square_process.start()
     cube_process.start()
