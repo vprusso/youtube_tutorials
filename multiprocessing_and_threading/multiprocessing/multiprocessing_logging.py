@@ -1,4 +1,4 @@
-# YouTube Link:
+# YouTube Link: https://www.youtube.com/watch?v=KpDKpgzvmrY
 
 # We briefly cover the logging component of the multiprocessing module.
 

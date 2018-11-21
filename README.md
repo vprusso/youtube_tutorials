@@ -322,11 +322,17 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Multiprocessing in Python: Introduction (Part 2)](https://www.youtube.com/watch?v=itbx_hDX7z8)<br>
     A continuation of the introduction of the multiprocessing module in Python.
 
-* [Multiprocessing in Python: Locks](XXX)<br>
+* [Multiprocessing in Python: Locks](https://www.youtube.com/watch?v=iYJNmuD4McE)<br>
     An introduction to lock objects in the multiprocessing module.
 
-* [Multiprocessing in Python: Logging](XXX)<br>
+* [Multiprocessing in Python: Logging](https://www.youtube.com/watch?v=KpDKpgzvmrY)<br>
     We see how to make use of the multiprocessing logging functionality.
+
+* [Multiprocessing in Python: Pool](https://www.youtube.com/watch?v=u2jTn-Gj2Xw)<br>
+    We see how to make use of the multiprocessing Pool class and how to spawn multiple processes.
+
+* [Multiprocessing in Python: Process Communication](https://www.youtube.com/watch?v=TQx3IfCVvQ0)<br>
+    We see how to make use of the multiprocessing communicate information among different processes.
 
 ### Natural Language Processing
 
@@ -518,19 +524,4 @@ I would love to compile solutions to all of the problems here, as well as offer 
 
 * [Craigslist Scraper with Python and Selenium (Part 3/3)](https://www.youtube.com/watch?v=_y43iqSJgnc&t=1s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
     Write a script using Selenium, Beautiful Soup, and urllib to extract information from the website Craigslist. 
-
-* [Bing Rewards Bot with Python and Selenium (Part 1/5)](https://www.youtube.com/watch?v=axxfcMEfDPE&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
-    Write a script in Python making use of Selenium to automate a rewards bot.
-
-* [Bing Rewards Bot with Python and Selenium (Part 2/5)](https://www.youtube.com/watch?v=O2S1qfjE2tA&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
-    Write a script in Python making use of Selenium to automate a rewards bot.
-
-* [Bing Rewards Bot with Python and Selenium (Part 3/5)](https://www.youtube.com/watch?v=X5plI2jLrmI&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
-    Write a script in Python making use of Selenium to automate a rewards bot.
-
-* [Bing Rewards Bot with Python and Selenium (Part 4/5)](https://www.youtube.com/watch?v=1g677_mjflM&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
-    Write a script in Python making use of Selenium to automate a rewards bot.
-
-* [Bing Rewards Bot with Python and Selenium (Part 5/5)](https://www.youtube.com/watch?v=rUYN5OEjs74&t=0s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
-    Write a script in Python making use of Selenium to automate a rewards bot.
 

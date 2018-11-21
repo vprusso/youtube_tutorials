@@ -1,4 +1,4 @@
-# YouTube Link:
+# YouTube Link: https://www.youtube.com/watch?v=iYJNmuD4McE
 
 # A lock or mutex is a sychronization mechanism for enforcing
 # limits on access to a resource in an environment where there
