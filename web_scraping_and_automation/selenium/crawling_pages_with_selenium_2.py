@@ -1,4 +1,5 @@
 # YouTube Video: https://www.youtube.com/watch?v=Z3vFdtZ7d-g
+import csv
 from selenium import webdriver
 
 MAX_PAGE_NUM = 5
