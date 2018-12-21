@@ -1,8 +1,7 @@
 ---
 title: "System Design Approach"
-author: Vincent Russo
+author: LucidProgramming
 date: December 20, 2018
-output: out.pdf
 ---
 
 # System Design
@@ -80,6 +79,8 @@ interviewer is to see how well you handle vague requirements.
 - Typically, abstracting certain pieces of functionality into some type
  of high-level API is a way in which to organize the major components of
  the system.
+
+# Tackling the Problem
 
 - Being able to intelligently talk about the trade-offs of different database
  technology is a major plus. For instance, knowing the difference between a
