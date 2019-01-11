@@ -370,6 +370,9 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [System Design: URL Shortener -- Database Design](XXX)<br>
     Part 3 of the URL shortener system design interview question where we cover database design.
 
+* [System Design: General Approach](XXX)<br>
+    A general overview of how to approach the system design interview.
+
 ### Technical Interview
 
 * [Check if String has Unique Characters](https://www.youtube.com/watch?v=UqEU-obRUnI&t=232s&list=PL5tcWHG-UPH1D-JVSiZI_8I8LPUJtoHdg)<br>
@@ -525,3 +528,30 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Craigslist Scraper with Python and Selenium (Part 3/3)](https://www.youtube.com/watch?v=_y43iqSJgnc&t=1s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
     Write a script using Selenium, Beautiful Soup, and urllib to extract information from the website Craigslist. 
 
+* [Amazon Sheets Budget: Introduction (Part 1/7)](XXX)
+    Showcase what the overall script and show what will be accomplished in this series.
+
+* [Amazon Sheets Budget Setup Google Sheets and Google Drive API (Part 2/7)](XXX)
+    Setup Google Sheets and Google Drive API. Install gspread and oauth in Python. 
+    Share the spreadsheet to allow access for script.
+
+* [Amazon Sheets Budget: Automate Amazon Search (Part 3/7)](XXX)
+    Amazon bot for searching for item, picking first one, navigating to page
+    and extracting and cleaning the price.
+
+* [Amazon Sheets Budget: Updating the Google Sheet (Part 4/7)](XXX)
+    Price updater component that takes the prices and plugs them into
+    the spreadsheet.
+
+* [Amazon Sheets Budget: Extracting More Amazon Content (Part 5/7)](XXX)
+    Adding functionality to extract the Amazon title, AISN, and 
+    URL. Storing this in spreadsheet.
+
+* [Amazon Sheets Budget: Setting up Email Alerts (Part 6/7)](XXX)
+    Once completed processing, add in functionality for emailing
+    to self. Primarily will refer to other video that describes
+    how to send email in Python.
+
+* [Amazon Sheets Budget: Wrap-Up (Part 7/7)](XXX)
+    Outro video that wraps up everything and gives a brief
+    overview of what we accomplished in this series.
