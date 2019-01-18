@@ -1,7 +1,6 @@
 ---
-title: "Channel Update (2019)"
+title: "LucidProgramming Channel Update -- 2019"
 ---
-Update video (attended pycon in Toronto, plans for channel, end-of-year setback, merch design contest, maillist, subscriber milestone, vision for channel for 2019etc.)
 
 # Thank you!
 
