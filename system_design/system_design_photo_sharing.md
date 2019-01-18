@@ -1,13 +1,14 @@
 ---
 title: "System Design: Photo Sharing Application"
-author: LucidProgramming
 ---
 
 # Goals
 
 - Design a photo sharing web application. Similar to Instagram, Flickr, etc.
+. . .
 
 - Step through the high-level requirements for such an application.
+. . .
 
 - Cover techniques for building and scaling this service.
 
@@ -19,24 +20,30 @@ author: LucidProgramming
 # Basic Functionality Requirements
 
 - Upload and download photos from service.
+. . .
 
 - Search for photos based on titles.
+. . .
 
 - Allow users to follow other users.
+. . .
 
 - Be able to display the feed of user as homepage.
 
 # Basic Service Requirements
 
 - Low latency for news feed generation.
+. . .
 
 - Reliably store photos.
+. . .
 
 - Allow users to upload as many photos as they wish.
 
 # Not Required
 - Other requirements could be asked by the interviewer, but for our
   application we will side-step these particularl attributes.
+. . .
 
     1. Commenting on photos. 
 
@@ -49,6 +56,7 @@ author: LucidProgramming
 # Capacity Estimation
 
 - Capacity figures obtained from: Educative.
+. . .
 
     1. 
 
