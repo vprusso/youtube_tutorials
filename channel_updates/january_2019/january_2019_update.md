@@ -100,6 +100,15 @@ for funds and if you've found value from the channel:
 
 . . .
 
+- Amazon Affiliate. If you shop on Amazon, you can support the channel by using the following
+links. Doing so does not increase the amount you spend, it only allows a fraction of the sale
+to go to supporting my channel. If you like my content, please consider bookmarking the links:
+
+- Amazon US: https://amzn.to/2W2MT3t
+- Amazon Canada: https://amzn.to/2SXICMt
+
+. . .
+
 - Share this content with someone you think would benefit from it.
 
 . . . 
