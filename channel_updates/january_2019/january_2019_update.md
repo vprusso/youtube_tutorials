@@ -87,10 +87,6 @@ for funds and if you've found value from the channel:
 
 . . .
 
-- Request a specific tutorial or topic to be covered via Patreon.
-
-. . .
-
 - Reach out for consulting work.
 
 . . .
