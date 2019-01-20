@@ -1,6 +1,9 @@
 # Video inspired from the kernel on Kaggle here:
 # https://www.kaggle.com/residentmario/creating-reading-and-writing-reference
 
+# The data for this video can be downloaded here:
+# https://www.kaggle.com/zynicide/wine-reviews
+
 # pip install pandas
 import pandas as pd
 

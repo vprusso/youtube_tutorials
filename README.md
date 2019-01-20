@@ -122,6 +122,11 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Unset Right-Most Bit](Pending)<br>
     Write a program  that takes an integer and unsets the right most bit in the binary representation of that integer
 
+### Data Science
+
+* [Data Science, Kaggle, Wine and Python -- Part 1: Pandas] (https://www.youtube.com/watch?v=BQj7sy2MmOA)
+    We go over what the agenda is for the series and go over some basics in the pandas module.
+
 ### Data Structures
 
 #### Arrays
@@ -356,7 +361,7 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Transitioning from Non-Tech to Tech: An Interview with Beau Carnes](https://www.youtube.com/watch?v=SOQAe9T1tdM)<br>
     A conversation with Beau Carnes regarding his journey in shifting from a teaching career to a technical career.
 
-* [Preparing for a Technical Interview: An Interview with Sam Gavis-Hughson of Byte-by-Byte](XXX)<br>
+* [Preparing for a Technical Interview: An Interview with Sam Gavis-Hughson of Byte-by-Byte](https://www.youtube.com/watch?v=dgBLqylx9ew)<br>
     A conversation with Sam Gavis-Hughson of Byte-by-Byte about how to effectively prepare for a technical interview.
 
 ### System Design
@@ -367,11 +372,13 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [System Design: URL Shortener -- Calculating Estimates](https://www.youtube.com/watch?v=oK6BmG3R5iE)<br>
     Part 2 of the URL shortener system design interview question where we cover how to roughly estimate costs for the project.
 
-* [System Design: URL Shortener -- Database Design](XXX)<br>
+* [System Design: URL Shortener -- Database Design](https://www.youtube.com/watch?v=xq74OjU_w4w)<br>
     Part 3 of the URL shortener system design interview question where we cover database design.
 
-* [System Design: General Approach](XXX)<br>
+* [System Design: General Approach](https://www.youtube.com/watch?v=ilkgBo461E4)<br>
     A general overview of how to approach the system design interview.
+
+* [System Design: Photo Sharing Website](XXX)<br>
 
 ### Technical Interview
 
@@ -528,30 +535,30 @@ I would love to compile solutions to all of the problems here, as well as offer 
 * [Craigslist Scraper with Python and Selenium (Part 3/3)](https://www.youtube.com/watch?v=_y43iqSJgnc&t=1s&list=PL5tcWHG-UPH1aSWALagYP2r3RMmuslcrr)<br>
     Write a script using Selenium, Beautiful Soup, and urllib to extract information from the website Craigslist. 
 
-* [Amazon Sheets Budget: Introduction (Part 1/7)](XXX)
+* [Amazon Sheets Budget: Introduction (Part 1/7)](https://www.youtube.com/watch?v=x2r_RmvfzRo)
     Showcase what the overall script and show what will be accomplished in this series.
 
-* [Amazon Sheets Budget Setup Google Sheets and Google Drive API (Part 2/7)](XXX)
+* [Amazon Sheets Budget Setup Google Sheets and Google Drive API (Part 2/7)](https://www.youtube.com/watch?v=xMGcfURml9M)
     Setup Google Sheets and Google Drive API. Install gspread and oauth in Python. 
     Share the spreadsheet to allow access for script.
 
-* [Amazon Sheets Budget: Automate Amazon Search (Part 3/7)](XXX)
+* [Amazon Sheets Budget: Automate Amazon Search (Part 3/7)](https://www.youtube.com/watch?v=wai6j84QOus)
     Amazon bot for searching for item, picking first one, navigating to page
     and extracting and cleaning the price.
 
-* [Amazon Sheets Budget: Updating the Google Sheet (Part 4/7)](XXX)
-    Price updater component that takes the prices and plugs them into
-    the spreadsheet.
-
-* [Amazon Sheets Budget: Extracting More Amazon Content (Part 5/7)](XXX)
+* [Amazon Sheets Budget: Extracting More Amazon Content (Part 4/7)](https://www.youtube.com/watch?v=JpHgsdQhsXo)
     Adding functionality to extract the Amazon title, AISN, and 
     URL. Storing this in spreadsheet.
 
-* [Amazon Sheets Budget: Setting up Email Alerts (Part 6/7)](XXX)
+* [Amazon Sheets Budget: Updating the Google Sheet (Part 5/7)](https://www.youtube.com/watch?v=R4qwnJVd7-k)
+    Price updater component that takes the prices and plugs them into
+    the spreadsheet.
+
+* [Amazon Sheets Budget: Setting up Email Alerts (Part 6/7)](https://www.youtube.com/watch?v=GP87YVZvHdU)
     Once completed processing, add in functionality for emailing
     to self. Primarily will refer to other video that describes
     how to send email in Python.
 
-* [Amazon Sheets Budget: Wrap-Up (Part 7/7)](XXX)
+* [Amazon Sheets Budget: Wrap-Up (Part 7/7)](https://www.youtube.com/watch?v=3gD1uqrH_rk)
     Outro video that wraps up everything and gives a brief
     overview of what we accomplished in this series.
