@@ -58,16 +58,47 @@ title: "System Design: Photo Sharing Application"
 - Capacity figures obtained from: Educative.
 . . .
 
-    1. 
+    1. 500 million total users. 1 million active users daily.
+. . . 
 
-    2. 
+    2. 2 million photos each day with roughly ~23 photos uploaded each second.
+. . .
 
-    3. 
+    3. Average photo size will be around ~200KB:
+        2 million * 200 KB = 400 GB
+. . .
+        
+    4. Total space required (assuming we store photos for 10 years):
+        400 GB * 365 (days) * 10 (years) ~= 1425 TB
 
-    4. 
+# High-level Requirements
+
+- Users should be able to:
+
+    1. Upload image.
+. . .
+
+    2. Search for image.
+. . .
+
+
+- This will involve some storage solution for:
+
+    1. Storing the images that are uploaded.
+. . .
+
+    2. Storing metadata about the images (caption, location, etc.)
+
+# Database Design
+
+- 
+
 
 # Test
+
 -
 
 # Further Resources 
 
+- Content based on: 
+[Designing Instagram by Educative](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5673385510043648)
