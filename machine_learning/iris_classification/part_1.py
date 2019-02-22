@@ -7,14 +7,14 @@
 # iris flower based on characteristics of that flower. For
 # instance attributes including petal length, width, etc.
 # are the "features" that determine the classification
-# of a given iris flower. 
+# of a given iris flower.
 
 # Import the iris dataset as provided by the sklearn
 # Python module:
 from sklearn.datasets import load_iris
 iris = load_iris()
 
-# Iris object returned is a 'Bunch' object. This is similar to a 
+# Iris object returned is a 'Bunch' object. This is similar to a
 # Python dictionary as it cntains keys and values:
 # print(iris.keys())
 

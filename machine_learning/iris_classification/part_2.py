@@ -46,13 +46,13 @@ plt.suptitle("iris_pairplot")
 
 for i in range(3):
     for j in range(3):
-        ax[i, j].scatter(x_train[:, j], x_train[:, i + 1], c=y_train, s=60)
+        ax[i, j].scatter(x_train[:, j], x_train[:, i + 1], c=y_train)
         ax[i, j].set_xticks(())
         ax[i, j].set_yticks(())
         if i == 2:
             ax[i, j].set_xlabel(iris['feature_names'][j])
         if j == 0:
             ax[i, j].set_ylabel(iris['feature_names'][i + 1])
-        if j > i:
-            ax[i, j].set_visible(False)
+        #if j > i:
+        #    ax[i, j].set_visible(False)
 plt.show()
