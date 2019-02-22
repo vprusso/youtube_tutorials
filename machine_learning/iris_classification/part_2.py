@@ -38,7 +38,7 @@ iris = load_iris()
 
 # Split our dataset into training and testing sets.
 from sklearn.model_selection import train_test_split
-x_train, x_test, y_train, y_test = train_test_split(iris['data'], iris['target'], random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(iris['data'], iris['target'], random_state=0)
 
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots(3, 3, figsize=(15, 15))
@@ -46,7 +46,7 @@ plt.suptitle("iris_pairplot")
 
 for i in range(3):
     for j in range(3):
-        ax[i, j].scatter(x_train[:, j], x_train[:, i + 1], c=y_train)
+        ax[i, j].scatter(X_train[:, j], X_train[:, i + 1], c=y_train)
         ax[i, j].set_xticks(())
         ax[i, j].set_yticks(())
         if i == 2:
