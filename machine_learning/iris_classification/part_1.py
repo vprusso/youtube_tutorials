@@ -20,9 +20,31 @@ iris = load_iris()
 
 # Value of DESCR is a description of the dataset.
 # Here are the first few values of the description
-print(iris['DESCR'][:200] + "\n...")
+# print(iris['DESCR'][:200] + "\n...")
 
 # The value with key "target_names" consists of an
 # array of strings with species that we intent to predict.
-iris['target_names']
+# print(iris['target_names'])
+
+# We can also print out the feature names of each item.
+# Things like petal length, width, etc.
+# print(iris['feature_names'])
+
+# The data for each flower is contained in the data
+# field of the iris dataset.
+# print(iris['data'])
+
+# We can see that there are 150 different entries
+# with 4 features per each entry where the features
+# correspond to sepal length, sepal width, petal`
+# length, and petal width, respectively.
+# print(iris['data'].shape)
+
+# The target field contains what species each entry
+# corresponds to. There are three possible species:
+# 0 -> Setosa
+# 1 -> Versicolor
+# 2 -> Viginica
+# print(iris['target'])
+
 
