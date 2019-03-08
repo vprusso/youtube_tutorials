@@ -8,6 +8,10 @@
 # length, width, etc. are the "features" that determine the classification
 # of a given iris flower.
 
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+
 # Import the iris dataset as provided by the sklearn Python module:
 from sklearn.datasets import load_iris
 iris = load_iris()
@@ -21,10 +25,6 @@ iris = load_iris()
 # We determine this by finding the k-closest neighbors to the given
 # point and determine which predication has the majority class among
 # the neightbors. We will start by considering one neighbor for now.
-
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-import numpy as np
 
 X_train, X_test, y_train, y_test = train_test_split(iris['data'], iris['target'], random_state=0)
 knn = KNeighborsClassifier(n_neighbors=1)
