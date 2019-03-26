@@ -1,6 +1,5 @@
 # YouTube Video: https://www.youtube.com/watch?v=mP_Ln-Z9-XY
 import smtplib
-
 import config
 
 
@@ -18,7 +17,8 @@ def send_email(subject, msg):
         print("Email failed to send.")
 
 
-subject = "Test subject"
-msg = "Hello there, how are you today?"
+if __name__ == "__main__":
+    subject = "Test subject"
+    msg = "Hello there, how are you today?"
 
-send_email(subject, msg)
+    send_email(subject, msg)
