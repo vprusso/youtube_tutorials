@@ -52,4 +52,18 @@ model.add(keras.layers.GlobalAveragePooling1D())
 model.add(keras.layers.Dense(16, activation=tf.nn.relu))
 model.add(keras.layers.Dense(1, activation=tf.nn.sigmoid))
 
-model.summary()
+#model.summary()
+
+model.compile(optimizer="adam",
+              loss="binary_crossentropy",
+              metrics=["acc"])
+
+x_val = train_data[:10000]
+partial_x_train = train_data[10000:]
+
+y_val = train_labels[:10000]
+partial_y_train = train_labels[10000:]
+
+results = model.evaluate(test_data, test_labels)
+
+print(results)
