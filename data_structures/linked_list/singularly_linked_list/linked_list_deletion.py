@@ -74,7 +74,7 @@ class LinkedList:
             return
 
         prev = None
-        count = 1
+        count = 0
         while cur_node and count != pos:
             prev = cur_node 
             cur_node = cur_node.next
