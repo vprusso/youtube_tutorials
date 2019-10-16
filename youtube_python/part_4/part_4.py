@@ -31,6 +31,7 @@ class YouTubeStats:
         return self.data["items"][0]["snippet"]["description"]
 
 
+api_key = "PUT YOUR API KEY HERE"
 
 link_file = "links.csv"
 

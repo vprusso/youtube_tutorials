@@ -15,7 +15,7 @@ class Helper:
     def id_from_url(self, url: str):
         return url.rsplit("/", 1)[1]
 
-api_key = "AIzaSyA6lRsQinNw6IW39Y8IDs2Y-KmQc1RLQ_8"
+api_key = "PUT YOUR API KEY IN HERE"
 
 s = "https://youtu.be/C0PuCgQrxZU"
 t = "Neural Networks in Python: Part 1 -- Part A"
