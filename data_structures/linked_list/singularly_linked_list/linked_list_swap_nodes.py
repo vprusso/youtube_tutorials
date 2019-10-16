@@ -101,7 +101,7 @@ class LinkedList:
             return 0
         return 1 + self.len_recursive(node.next)
 
-
+    '''swap by changing the next attribute of node'''
     def swap_nodes(self, key_1, key_2):
 
         if key_1 == key_2:
@@ -133,6 +133,25 @@ class LinkedList:
             self.head = curr_1
 
         curr_1.next, curr_2.next = curr_2.next, curr_1.next
+        
+    ''' Alternate swap node function , swap by changing the data attribute of node '''
+    def swap_nodes_alt(self, key_1, key_2):
+        if key_1 == key_2:
+            return
+        curr  = self.head
+        x , y = None , None # Assign None to avoid reference error
+        while curr :
+            if curr.data == key_1:
+                x = curr # key_1 found
+            if curr.data == key_2:
+                y =curr # key_2 found
+            curr = curr.next
+        
+        if x and y: # Check if both key's exist
+            x.data , y.data = y.data , x.data
+        else : 
+            return
+        
 
         
 llist = LinkedList()
@@ -140,10 +159,24 @@ llist.append("A")
 llist.append("B")
 llist.append("C")
 llist.append("D")
+llist.append("E")
+llist.append("F")
+llist.append("G")
 
+print("Initial list")
+llist.print_list()
+
+print(" swap by changing next attribute \n")
 llist.swap_nodes("A", "B")
 
 llist.print_list()
+
+print(" swap by changing data attribute \n ")
+llist.swap_nodes_alt("B", "A")
+
+llist.print_list()
+
+
 
 #print(llist.len_recursive(llist.head))
 
@@ -153,4 +186,3 @@ llist.print_list()
 #llist.delete_node("B")
 
 #llist.print_list()
-
