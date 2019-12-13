@@ -1,6 +1,6 @@
 # YouTube Video: https://www.youtube.com/watch?v=X41iojWqQZY
 """
-Use a stack data structure to convert integer values to their corresponding binary representation. 
+Use a stack data structure to convert integer values to their corresponding binary representation.
 
 Example : 242
 
@@ -18,6 +18,8 @@ from stack import Stack
 
 
 def div_by_2(dec_num):
+    if dec_num == 0:
+        return 0
     s = Stack()
 
     while dec_num > 0:
