@@ -1,6 +1,7 @@
-# YouTube Video: https://www.youtube.com/watch?v=wlnx-7cm4Gg
-# Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = ""
-ACCESS_TOKEN_SECRET = ""
-CONSUMER_KEY = ""
-CONSUMER_SECRET = ""
+import json
+
+with open('..\\twitter_credentials.json') as f:
+    creds = json.load(f)
+
+for key in creds.keys():
+    print(f"creds['{key}']")

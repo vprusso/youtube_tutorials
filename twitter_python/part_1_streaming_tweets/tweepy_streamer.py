@@ -1,9 +1,17 @@
 # YouTube Video: https://www.youtube.com/watch?v=wlnx-7cm4Gg
+import json
+
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
- 
-import twitter_credentials
+
+# Must store credential json in parent GitHub directory (as to not upload the key to public repo)
+with open('..\\twitter_credentials.json') as f:
+    creds = json.load(f)
+    CONSUMER_KEY = creds['consumer_api_key']
+    CONSUMER_SECRET = creds['consumer_api_secret_key']
+    ACCESS_TOKEN = creds['access_token']
+    ACCESS_TOKEN_SECRET = creds['access_token_secret']
  
 # # # # TWITTER STREAMER # # # #
 class TwitterStreamer():
@@ -14,10 +22,10 @@ class TwitterStreamer():
         pass
 
     def stream_tweets(self, fetched_tweets_filename, hash_tag_list):
-        # This handles Twitter authetification and the connection to Twitter Streaming API
+        # This handles Twitter authentication and the connection to Twitter Streaming API
         listener = StdOutListener(fetched_tweets_filename)
-        auth = OAuthHandler(twitter_credentials.CONSUMER_KEY, twitter_credentials.CONSUMER_SECRET)
-        auth.set_access_token(twitter_credentials.ACCESS_TOKEN, twitter_credentials.ACCESS_TOKEN_SECRET)
+        auth = OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+        auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
         stream = Stream(auth, listener)
 
         # This line filter Twitter Streams to capture data by the keywords: 
@@ -50,8 +58,8 @@ class StdOutListener(StreamListener):
 if __name__ == '__main__':
  
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ["donal trump", "hillary clinton", "barack obama", "bernie sanders"]
-    fetched_tweets_filename = "tweets.txt"
+    hash_tag_list = ["philadelphia eagles", "dallas cowboys"]
+    fetched_tweets_filename = "twitter_python\\part_1_streaming_tweets\\data\\tweets.json"
 
     twitter_streamer = TwitterStreamer()
     twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
