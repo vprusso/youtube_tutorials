@@ -61,24 +61,22 @@ class BST:
             return True
 
     def is_bst_satisfied(self):
-        if self.root:
-            is_satisfied = self._is_bst_satisfied(self.root, self.root.data)
-
-            if is_satisfied is None:
+        def helper(node, lower=float('-inf'), upper=float('inf')):
+            if not node:
                 return True
-        return False
+            
+            val = node.data
+            if val <= lower or val >= upper:
+                return False
 
-    def _is_bst_satisfied(self, cur_node, data):
-        if cur_node.left:
-            if data > cur_node.left.data:
-                return self._is_bst_satisfied(cur_node.left, cur_node.left.data)
-            else:
+            if not helper(node.right, val, upper):
                 return False
-        if cur_node.right:
-            if data < cur_node.right.data:
-                return self._is_bst_satisfied(cur_node.right, cur_node.right.data)
-            else:
+            if not helper(node.left, lower, val):
                 return False
+            return True
+
+        return helper(self.root)
+
 
 bst = BST()
 bst.insert(4)
@@ -87,16 +85,17 @@ bst.insert(8)
 bst.insert(5)
 bst.insert(10)
 
+
 tree = BST()
 tree.root = Node(1)
-tree.root.left = Node(2)
+tree.root.left = Node(-4)
 tree.root.right = Node(3)
-#tree.root.left.left = Node(4)
-#tree.root.left.right = Node(5)
-#tree.root.right.left = Node(6)
-#tree.root.right.right = Node(7)
-#tree.root.right.right.right = Node(8)
+tree.root.left.left = Node(-5)
+tree.root.left.right = Node(0)
+tree.root.right.left = Node(2)
+tree.root.right.right = Node(7)
+tree.root.right.right.right = Node(-8)
 
-print(bst.is_bst_satisfied())
+#print(bst.is_bst_satisfied())
 print(tree.is_bst_satisfied())
 
