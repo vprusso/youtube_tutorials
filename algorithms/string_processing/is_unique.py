@@ -44,9 +44,9 @@ print(unique_str)
 print(non_unique_str)
 
 print(is_unique_1(unique_str))
-print(is_unique_1(unique_str))
+print(is_unique_1(non_unique_str))
 
-print(is_unique_2(non_unique_str))
+print(is_unique_2(unique_str))
 print(is_unique_2(non_unique_str))
 
 print(is_unique_3(unique_str))
