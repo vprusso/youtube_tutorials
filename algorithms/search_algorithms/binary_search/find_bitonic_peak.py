@@ -1,7 +1,7 @@
 # YouTube Link: https://www.youtube.com/watch?v=gHHjjcCc_4w&list=PL5tcWHG-UPH1kjiE-Fqt1xCSkcwyfn2Jb
 """
 Define a bitonic sequence as a sequence of integers such that:
-    x_1 <= ... <= x_k >= ... >= x_n-1 for some k, 0 <= k < n.
+    x_1 < ... < x_k > ... > x_n-1 for some k, 0 <= k < n.
 
 For example:
     1, 2, 3, 4, 5, 4, 3, 2, 1
@@ -27,7 +27,7 @@ def find_highest_number(A):
     while low <= high:
         mid = (low + high)//2
 
-        mid_left = A[mid - 1] if mid - 1 > 0 else float("inf")
+        mid_left = A[mid - 1] if mid - 1 > 0 else float("-inf")
         mid_right = A[mid + 1] if mid + 1 < len(A) else float("inf")
 
         if mid_left < A[mid] and mid_right > A[mid]:
