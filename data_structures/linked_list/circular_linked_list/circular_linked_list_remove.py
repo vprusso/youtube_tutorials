@@ -84,6 +84,9 @@ class CircularLinkedList:
         split_cllist.print_list()
 
     def remove(self, key):
+        if self.head.next == self.head and self.head.data == key:
+            self.head = None
+            return
         if self.head.data == key:
             cur = self.head 
             while cur.next != self.head:
