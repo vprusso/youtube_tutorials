@@ -18,7 +18,7 @@ Median is 5. So, we return 5.
 
 def median_matrix(A):
     if len(A) == 1:
-        vec = A[0]
+        vec = sorted(A[0])
         return vec[len(vec)//2]
     else:
         new_list = []
