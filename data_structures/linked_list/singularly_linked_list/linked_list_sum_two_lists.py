@@ -356,7 +356,7 @@ class LinkedList:
         sum_llist = LinkedList()
 
         carry = 0
-        while p or q:
+        while p.next or q.next:
             if not p:
                 i = 0
             else:
@@ -377,6 +377,7 @@ class LinkedList:
                 p = p.next
             if q:
                 q = q.next
+        sum_list.append(p.data + q.data + carry) 
         sum_llist.print_list()
 
 
