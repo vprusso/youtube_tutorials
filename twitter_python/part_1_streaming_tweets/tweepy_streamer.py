@@ -2,9 +2,8 @@
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
- 
-import twitter_credentials
- 
+import json
+
 # # # # TWITTER STREAMER # # # #
 class TwitterStreamer():
     """
@@ -34,9 +33,8 @@ class StdOutListener(StreamListener):
 
     def on_data(self, data):
         try:
-            print(data)
-            with open(self.fetched_tweets_filename, 'a') as tf:
-                tf.write(data)
+            json_data = json.loads(data)
+            print(f'{json_data["created_at"]}:\n {json_data["text"]}')
             return True
         except BaseException as e:
             print("Error on_data %s" % str(e))
