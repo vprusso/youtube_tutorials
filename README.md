@@ -1,6 +1,18 @@
 # LucidProgramming YouTube Tutorial Scripts:
 [LucidProgramming](http://bit.ly/lucidcode) is my YouTube channel and this repo consists of a collection of scripts corresponding to YouTube tutorials for my YouTube channel.
 
+## Sponsoring
+
+If you found this code useful in your programming journey, please consider
+sponsoring the creation of my content by clicking on the "Sponsor" button in
+this repo.
+
+The funding goes to the creation of new videos, code, and time spent responding
+to questions, comments, etc.
+
+Your support allows me to spend more time on creating more content to help
+learners!
+
 ## Contributing
 I would love to compile solutions to all of the problems here, as well as offer solutions in different languages. Just create a pull request with your changes. 
 
