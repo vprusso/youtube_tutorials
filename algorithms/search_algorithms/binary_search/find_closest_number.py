@@ -34,6 +34,12 @@ def find_closest_num(A, target):
         return None
     if len(A) == 1:
         return A[0]
+    # Edge case where list contains exactly two elements
+    if len(A) == 2:
+        if abs(A[1] - target) < abs(A[0] - target):
+            return A[1]
+        else:
+            return A[0]
 
     while low <= high:
         mid = (low + high)//2
