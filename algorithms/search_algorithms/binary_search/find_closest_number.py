@@ -37,24 +37,12 @@ def find_closest_num(A, target):
 
     while low <= high:
         mid = (low + high)//2
-
-        # Ensure you do not read beyond the bounds
-        # of the list.
-        if mid+1 < len(A):
-            min_diff_right = abs(A[mid + 1] - target)
-        if mid > 0:
-            min_diff_left = abs(A[mid - 1] - target)
-
-        # Check if the absolute value between left
-        # and right elements are smaller than any
-        # seen prior.
-        if min_diff_left < min_diff:
-            min_diff = min_diff_left
-            closest_num = A[mid - 1]
-
-        if min_diff_right < min_diff:
-            min_diff = min_diff_right
-            closest_num = A[mid + 1]
+        
+        # Keep track of the closest value from the target 
+        # so far.
+        if min_diff > abs(A[mid] - target):
+            closest_num = A[mid]
+            min_diff = abs(A[mid] - target)
 
         # Move the mid-point appropriately as is done
         # via binary search.
