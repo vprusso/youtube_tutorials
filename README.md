@@ -13,6 +13,11 @@ to questions, comments, etc.
 Your support allows me to spend more time on creating more content to help
 learners!
 
+I thank the following supporters for helping sponsor the free content here:
+
+![LogoVertical](https://user-images.githubusercontent.com/1562214/155734335-954df830-9c41-4afb-ba76-334c573d157d.png)
+
+
 ## Contributing
 I would love to compile solutions to all of the problems here, as well as offer solutions in different languages. Just create a pull request with your changes. 
 
