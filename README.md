@@ -15,7 +15,7 @@ learners!
 
 I thank the following supporters for helping sponsor the free content here:
 
-![LogoVertical](https://user-images.githubusercontent.com/1562214/155734335-954df830-9c41-4afb-ba76-334c573d157d.png)
+[![LogoVertical](https://user-images.githubusercontent.com/1562214/155734335-954df830-9c41-4afb-ba76-334c573d157d.png)](https://github.com/vprusso/vprusso/blob/master/README.md)
 
 
 ## Contributing
