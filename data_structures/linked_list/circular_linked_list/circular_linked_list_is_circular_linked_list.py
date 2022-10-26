@@ -97,10 +97,12 @@ class CircularLinkedList:
         prev.next = self.head 
 
         split_cllist = CircularLinkedList()
+        split_list_head = cur
         while cur.next != self.head:
             split_cllist.append(cur.data)
             cur = cur.next
         split_cllist.append(cur.data)
+        cur.next = split_list_head
 
         self.print_list()
         print("\n")
