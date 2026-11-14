@@ -15,7 +15,7 @@ title: "System Design: Photo Sharing Application"
 # Attributions
 
 - Content based on: 
-[Designing Instagram by Educative](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5673385510043648)
+[Designing Instagram by Design Gurus](https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/designing-instagram)
 
 # Basic Functionality Requirements
 
@@ -101,4 +101,4 @@ title: "System Design: Photo Sharing Application"
 # Further Resources 
 
 - Content based on: 
-[Designing Instagram by Educative](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5673385510043648)
+[Designing Instagram by Design Gurus](https://www.designgurus.io/course-play/grokking-the-system-design-interview/doc/designing-instagram)
